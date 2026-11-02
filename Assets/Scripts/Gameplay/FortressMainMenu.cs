@@ -163,9 +163,11 @@ public sealed class FortressMainMenu : MonoBehaviour
             TextAt(number.transform, "0" + (i + 1), 18, option.accent, 13, 0, 60, 32, true);
             TextAt(face.transform, option.title, 30, cream, 24, 279, width - 52, 44, true);
             TextAt(face.transform, option.subtitle, 15, option.accent, 26, 324, width - 56, 28);
-            TextAt(face.transform, option.towerSites + " 个塔位    ·    " + option.waves + " 波敌人    ·    " + option.startingGold + " 初始金币",
-                16, muted, 26, 363, width - 56, 30);
-            cardLabels[i] = TextAt(face.transform, "", 14, gold, 26, 402, width - 56, 24);
+            bool compact = maps.Length >= 4;
+            string stats = option.towerSites + " 个塔位 · " + option.waves + " 波敌人"
+                + (compact ? "\n" : " · ") + option.startingGold + " 初始金币";
+            TextAt(face.transform, stats, compact ? 14 : 16, muted, 26, compact ? 357 : 363, width - 56, compact ? 48 : 30);
+            cardLabels[i] = TextAt(face.transform, "", 14, gold, 26, compact ? 410 : 402, width - 56, 24);
         }
         var detail = Box(parent, "Selection Detail", 100, 670, 1400, 144, new Color32(9, 21, 26, 234));
         detailTitle = TextAt(detail.transform, "", 25, cream, 24, 16, 900, 42, true);
