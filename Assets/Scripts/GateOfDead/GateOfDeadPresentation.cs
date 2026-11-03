@@ -56,7 +56,7 @@ namespace RoyalFortress.GateOfDead
                 float before = EndingTime;
                 EndingTime += seconds;
                 if (before < 2.2f && EndingTime >= 2.2f) ImpactCount++;
-                if (before < 3.55f && EndingTime >= 3.55f) SealCount++;
+                if (before < 3.55f && EndingTime >= 3.55f) { SealCount++; FortressAudio.Play(FortressSound.Seal); }
                 if (before < 4.55f && IsSealed) onSealed.Invoke();
             }
             RenderLayers();

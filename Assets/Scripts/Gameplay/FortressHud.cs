@@ -30,6 +30,7 @@ public sealed class FortressHud : MonoBehaviour
     private GameObject pauseMenu;
     private CanvasGroup gameplayGroup;
     private Button continueButton;
+    private FortressDebugConsole debugConsole;
     private readonly Color ink = new Color32(15, 23, 29, 255);
     private readonly Color cream = new Color32(242, 234, 213, 255);
     private readonly Color muted = new Color32(151, 167, 170, 255);
@@ -76,15 +77,21 @@ public sealed class FortressHud : MonoBehaviour
     {
         if (!ready) return;
 #if ENABLE_INPUT_SYSTEM
-        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame) TogglePause();
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame) EscapeMenu();
 #elif ENABLE_LEGACY_INPUT_MANAGER
-        if (Input.GetKeyDown(KeyCode.Escape)) TogglePause();
+        if (Input.GetKeyDown(KeyCode.Escape)) EscapeMenu();
 #endif
     }
     public void TogglePause() { if (ready) ShowPauseMenu(!game.IsPaused); }
+    private void EscapeMenu()
+    {
+        if (debugConsole && debugConsole.IsOpen) debugConsole.Close();
+        else TogglePause();
+    }
     public void ShowPauseMenu(bool show)
     {
         if (!ready) return;
+        if (debugConsole && debugConsole.IsOpen) debugConsole.Close();
         build.Cancel();
         game.SetPaused(show);
         pauseMenu.SetActive(show);
@@ -180,14 +187,20 @@ public sealed class FortressHud : MonoBehaviour
         Place(shade.rectTransform, Vector2.zero, Vector2.one, Vector2.one * .5f, Vector2.zero, Vector2.zero);
         pauseMenu = shade.gameObject;
         var window = Panel("Pause Window", shade.transform, new Color32(20, 29, 38, 255), true);
-        Place(window.rectTransform, Vector2.one * .5f, Vector2.one * .5f, Vector2.one * .5f, Vector2.zero, new Vector2(400, 356));
+        Place(window.rectTransform, Vector2.one * .5f, Vector2.one * .5f, Vector2.one * .5f, Vector2.zero, new Vector2(400, 508));
         Label(window.transform, "游戏暂停", 28, cream, 24, 24, 352, 44).alignment = TextAnchor.MiddleCenter;
         Label(window.transform, game.levelName + " · Esc 返回游戏", 14, muted, 24, 70, 352, 28).alignment = TextAnchor.MiddleCenter;
         continueButton = PauseAction(window.transform, "继续游戏", 120, () => ShowPauseMenu(false), true);
         PauseAction(window.transform, "重新开始", 184, () => { ShowPauseMenu(false); game.RestartLevel(); });
         PauseAction(window.transform, "返回地图选择", 248, () => { ShowPauseMenu(false); FortressMainMenu.ReturnToSelection(); });
+        FortressAudioSettings.Create(window.transform, runtimeFont, new Vector2(32, 320), 336);
+        debugConsole = FortressDebugConsole.Create(shade.transform, window.gameObject, runtimeFont, game, this);
+        var debug = PauseAction(window.transform, "调试台  ›", 458, () => debugConsole.Open());
+        debug.name = "Open Debug Console";
+        debug.GetComponent<RectTransform>().sizeDelta = new Vector2(336, 34);
+        debug.GetComponentInChildren<Text>().rectTransform.sizeDelta = new Vector2(336, 34);
         // Explicit navigation keeps keyboard/controller focus within this modal.
-        var buttons = window.GetComponentsInChildren<Button>();
+        var buttons = window.GetComponentsInChildren<Selectable>();
         for (int i = 0; i < buttons.Length; i++)
         {
             var nav = new Navigation { mode = Navigation.Mode.Explicit,

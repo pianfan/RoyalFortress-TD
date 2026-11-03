@@ -90,6 +90,7 @@ public sealed class WaypointEnemy : MonoBehaviour
         resolved = true;
         if (combat != null) combat.enabled = false;
         game.EnemyReachedHome(this);
+        FortressAudio.Play(FortressSound.Leak, transform.position);
         Destroy(gameObject);
     }
     public void Defeat()
@@ -98,8 +99,16 @@ public sealed class WaypointEnemy : MonoBehaviour
         resolved = true;
         if (combat != null) combat.enabled = false;
         if (game != null) game.EnemyDefeated(this);
+        FortressAudio.Play(FortressSound.EnemyDeath, transform.position);
         var visual = GetComponent<FortressEnemyVisual>();
         if (visual != null) visual.PlayDeath(); else Destroy(gameObject);
+    }
+    public void DiscardForDebug()
+    {
+        resolved = true;
+        if (combat) combat.enabled = false;
+        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
     private void OnDestroy()
     {

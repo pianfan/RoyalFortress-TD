@@ -35,6 +35,8 @@ namespace KingdomBorder.TwinTowers
             Vector3 spawn = muzzle ? muzzle.position : transform.position;
             MagicProjectile shot = Instantiate(projectilePrefab, spawn, Quaternion.identity);
             shot.Launch(Target, definition, GetInstanceID());
+            FortressAudio.Play(definition.kind == TowerKind.Arrow ? FortressSound.Arrow
+                : definition.kind == TowerKind.Artillery ? FortressSound.Stone : FortressSound.Mage, transform.position);
             ShotsFired++;
             attackCooldown = Mathf.Max(0.05f, definition.attackInterval);
         }

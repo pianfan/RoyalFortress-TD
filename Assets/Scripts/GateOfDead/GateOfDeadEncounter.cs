@@ -17,6 +17,7 @@ namespace RoyalFortress.GateOfDead
         private void Start()
         {
             game.StateChanged += Refresh;
+            game.DebugWaveJumped += ResetForDebug;
             presentation.onSealed.AddListener(Sealed);
             presentation.showControls = false;
             Refresh();
@@ -25,6 +26,14 @@ namespace RoyalFortress.GateOfDead
         {
             if (!VictoryStarted && !failed)
                 presentation.pushProgress = Mathf.MoveTowards(presentation.pushProgress, targetProgress, Time.deltaTime * .25f);
+        }
+        private void ResetForDebug()
+        {
+            VictoryStarted = VictoryFinished = failed = false;
+            targetProgress = .8f * game.CompletedWaves / Mathf.Max(1, game.TotalWaves);
+            presentation.ResetPresentation();
+            presentation.pushProgress = targetProgress;
+            hud.SetEncounterMessage(null, null, false);
         }
         private void Refresh()
         {
@@ -59,6 +68,7 @@ namespace RoyalFortress.GateOfDead
         private void OnDestroy()
         {
             if (game != null) game.StateChanged -= Refresh;
+            if (game != null) game.DebugWaveJumped -= ResetForDebug;
             if (presentation != null) presentation.onSealed.RemoveListener(Sealed);
         }
     }

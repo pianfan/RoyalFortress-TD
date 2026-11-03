@@ -1,0 +1,29 @@
+[
+  {
+    "file": "menu.mp3",
+    "title": "Medieval: The Old Tower Inn",
+    "artist": "RandomMind",
+    "source": "https://opengameart.org/content/medieval-the-old-tower-inn",
+    "download": "https://opengameart.org/sites/default/files/The_Old_Tower_Inn.mp3",
+    "license": "CC0 1.0",
+    "sha256": "3fe4070015b880b591c79a7fca31156a0083a8768d88a39da39ab6c54f2f014d"
+  },
+  {
+    "file": "battle.ogg",
+    "title": "Heartfelt Battle",
+    "artist": "request",
+    "source": "https://opengameart.org/content/heartfelt-battle-loopable-fantasy-stringspianohorn",
+    "download": "https://opengameart.org/sites/default/files/heartfelt-battle_loop.ogg",
+    "license": "CC0 1.0",
+    "sha256": "fbe7e37515e0e17a0c3b46df7c5c2977cd1b607e70d6f9494b09f1795a3ae4d3"
+  },
+  {
+    "file": "boss.ogg",
+    "title": "Fairy Battles",
+    "artist": "MintoDog",
+    "source": "https://opengameart.org/content/fairy-battles",
+    "download": "https://opengameart.org/sites/default/files/fairy_battles_bpm180_0.ogg",
+    "license": "CC0 1.0",
+    "sha256": "3cb573bdd9ea449f8851d3249fa1ec1a8d0d843cbabcdfb060e97a3c132f0cde"
+  }
+]

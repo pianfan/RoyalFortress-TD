@@ -34,6 +34,7 @@ namespace RoyalFortress.ForestSanctuary
             presentation.showControls = false;
             presentation.simulationControlsEnabled = false;
             game.StateChanged += Refresh;
+            game.DebugWaveJumped += ResetForDebug;
             presentation.StateChanged += Refresh;
             presentation.onPurificationPulse.AddListener(ApplyPulse);
             presentation.onBlessingCompleted.AddListener(FinishVictory);
@@ -57,6 +58,13 @@ namespace RoyalFortress.ForestSanctuary
             control.SetActive(true);
         }
         public void ReleasePulse() { presentation.TryReleasePulse(); }
+        private void ResetForDebug()
+        {
+            VictoryStarted = VictoryFinished = Failed = stoppedBuilding = false;
+            LastPulseHitCount = 0; LastPulseDamage = 0;
+            hud.SetEncounterMessage(null, null, false);
+            Refresh();
+        }
         public void ToggleRoutes()
         {
             routeOverlay.SetActive(!routeOverlay.activeSelf);
@@ -109,6 +117,7 @@ namespace RoyalFortress.ForestSanctuary
         private void OnDestroy()
         {
             if (game!=null) game.StateChanged-=Refresh;
+            if (game!=null) game.DebugWaveJumped-=ResetForDebug;
             if (presentation!=null) { presentation.StateChanged-=Refresh; presentation.onPurificationPulse.RemoveListener(ApplyPulse); presentation.onBlessingCompleted.RemoveListener(FinishVictory); }
             if(pulseButton!=null)pulseButton.onClick.RemoveListener(ReleasePulse);
             if(routeButton!=null)routeButton.onClick.RemoveListener(ToggleRoutes);

@@ -51,7 +51,11 @@ public sealed class WaveGameController : MonoBehaviour
     public Transform enemiesRoot;
     public WaveDefinition[] waves;
     public event Action StateChanged;
+    public event Action DebugWaveJumped;
     private readonly HashSet<WaypointEnemy> activeEnemies = new HashSet<WaypointEnemy>();
+    private readonly Dictionary<WaypointEnemy, int> enemyWaves = new Dictionary<WaypointEnemy, int>();
+    // Includes both actual kill rewards and debug compensation. Survives backwards jumps in this run.
+    private readonly Dictionary<int, int> paidWaveGold = new Dictionary<int, int>();
     public int Lives { get; private set; }
     public int Gold { get; private set; }
     public bool IsPaused { get; private set; }
@@ -129,8 +133,20 @@ public sealed class WaveGameController : MonoBehaviour
 
     public bool TryStartNextWave()
     {
-        if (!CanStartWave) return false;
+        if (!CanStartWave || !IsWaveConfigured(CurrentWave + 1)) return false;
         WaveDefinition plan = waves[CurrentWave];
+        CurrentWave++;
+        IsWaveActive = true;
+        IsSpawning = true;
+        StateChanged?.Invoke();
+        StartCoroutine(SpawnWave(plan));
+        return true;
+    }
+
+    private bool IsWaveConfigured(int number)
+    {
+        if (number < 1 || number > TotalWaves || waves[number-1] == null) return false;
+        WaveDefinition plan = waves[number-1];
         if (plan.groups != null && plan.groups.Length > 0)
         {
             int total = 0;
@@ -139,24 +155,75 @@ public sealed class WaveGameController : MonoBehaviour
                 if (group == null || group.count < 0) return false;
                 total += group.count;
                 if (group.count > 0 && (!group.prefab || !ValidRoute(group.route,group.count)
-                    || ((group.requiresBranch || group.route == routeC) && CurrentWave + 1 < branchUnlockWave))) return false;
+                    || ((group.requiresBranch || group.route == routeC) && number < branchUnlockWave))) return false;
             }
             if (total == 0) return false;
         }
         else if (enemyPrefab == null || (plan.orcsA + plan.orcsB + plan.orcsC > 0 && orcPrefab == null)
             || (plan.bossesA + plan.bossesB + plan.bossesC > 0 && !bossPrefab)
             || !ValidRoute(routeA, plan.countA + plan.orcsA + plan.bossesA) || !ValidRoute(routeB, plan.countB + plan.orcsB + plan.bossesB)
-            || !ValidRoute(routeC, plan.countC + plan.orcsC + plan.bossesC) || (plan.countC + plan.orcsC + plan.bossesC > 0 && CurrentWave + 1 < branchUnlockWave))
+            || !ValidRoute(routeC, plan.countC + plan.orcsC + plan.bossesC) || (plan.countC + plan.orcsC + plan.bossesC > 0 && number < branchUnlockWave))
         {
             Debug.LogError("Wave route is missing, or the branch is scheduled before its unlock wave.", this);
             return false;
         }
-        CurrentWave++;
-        IsWaveActive = true;
-        IsSpawning = true;
-        StateChanged?.Invoke();
-        StartCoroutine(SpawnWave(plan));
         return true;
+    }
+
+    public int GetWaveGold(int number)
+    {
+        if (number < 1 || number > TotalWaves || waves[number-1] == null) return 0;
+        var plan = waves[number-1];
+        int total = 0;
+        if (plan.groups != null && plan.groups.Length > 0)
+        {
+            foreach (var group in plan.groups)
+                if (group != null) total += Reward(group.prefab, group.count);
+        }
+        else total = Reward(enemyPrefab, plan.countA + plan.countB + plan.countC)
+            + Reward(orcPrefab, plan.orcsA + plan.orcsB + plan.orcsC)
+            + Reward(bossPrefab, plan.bossesA + plan.bossesB + plan.bossesC);
+        return total;
+    }
+    private static int Reward(WaypointEnemy prefab, int count) => prefab ? Mathf.Max(0, count) * prefab.GoldReward : 0;
+    private int PaidGold(int number) => paidWaveGold.TryGetValue(number, out var paid) ? paid : 0;
+
+    public int GetDebugJumpGold(int targetWave)
+    {
+        if (targetWave < 1 || targetWave > TotalWaves) return 0;
+        int total = 0;
+        for (int number = 1; number < targetWave; number++) total += Mathf.Max(0, GetWaveGold(number) - PaidGold(number));
+        return total;
+    }
+
+    public bool TryDebugJumpToWave(int targetWave, out int grantedGold)
+    {
+        grantedGold = 0;
+        if (!Application.isPlaying || Lives <= 0 || !IsWaveConfigured(targetWave)) return false;
+        StopAllCoroutines();
+        IsSpawning = IsWaveActive = false;
+        var discarded = new List<WaypointEnemy>(activeEnemies);
+        activeEnemies.Clear(); enemyWaves.Clear();
+        foreach (var enemy in discarded) if (enemy) enemy.DiscardForDebug();
+        foreach (var shot in FindObjectsByType<KingdomBorder.TwinTowers.MagicProjectile>(FindObjectsSortMode.None))
+            if (shot.gameObject.scene == gameObject.scene) { shot.gameObject.SetActive(false); Destroy(shot.gameObject); }
+        grantedGold = GetDebugJumpGold(targetWave);
+        for (int number = 1; number < targetWave; number++) paidWaveGold[number] = Mathf.Max(PaidGold(number), GetWaveGold(number));
+        Gold += grantedGold;
+        CurrentWave = CompletedWaves = targetWave - 1;
+        IsGameOver = false;
+        DebugWaveJumped?.Invoke();
+        var building = FindFirstObjectByType<TowerBuildController>();
+        if (building && building.game == this)
+        {
+            building.Cancel(); building.enabled = true;
+            foreach (var site in building.sites)
+                if (site && site.clickArea) site.clickArea.enabled = !site.IsOccupied;
+            foreach (var tower in building.builtTowersRoot.GetComponentsInChildren<KingdomBorder.TwinTowers.TowerBehaviour>())
+            { tower.attackEnabled = true; tower.ResetCombat(); }
+        }
+        SetPaused(false);
+        return TryStartNextWave();
     }
 
     private static bool ValidRoute(WaypointPath path, int count)
@@ -214,6 +281,7 @@ public sealed class WaveGameController : MonoBehaviour
     {
         var enemy = Instantiate(prefab, enemiesRoot);
         activeEnemies.Add(enemy);
+        enemyWaves[enemy] = CurrentWave;
         var kind = enemy.definition ? enemy.definition.kind : FortressEnemyKind.Skeleton;
         if (kind == FortressEnemyKind.TempestSorcerer) SpawnedBosses++;
         else if (kind == FortressEnemyKind.RiftGuard) SpawnedSpecials++;
@@ -235,6 +303,7 @@ public sealed class WaveGameController : MonoBehaviour
     public void EnemyReachedHome(WaypointEnemy enemy)
     {
         if (IsGameOver || !activeEnemies.Remove(enemy)) return;
+        enemyWaves.Remove(enemy);
         LeakedEnemies++;
         Lives = Mathf.Max(0, Lives - enemy.BaseDamage);
         if (Lives == 0)
@@ -251,6 +320,7 @@ public sealed class WaveGameController : MonoBehaviour
     public void UnregisterEnemy(WaypointEnemy enemy)
     {
         if (!activeEnemies.Remove(enemy)) return;
+        enemyWaves.Remove(enemy);
         FinishWaveIfEmpty();
         StateChanged?.Invoke();
     }
@@ -258,9 +328,14 @@ public sealed class WaveGameController : MonoBehaviour
     public void EnemyDefeated(WaypointEnemy enemy)
     {
         if (!activeEnemies.Remove(enemy)) return;
+        enemyWaves.TryGetValue(enemy, out var number);
+        enemyWaves.Remove(enemy);
         if (IsGameOver) return;
         DefeatedEnemies++;
-        Gold += enemy.GoldReward;
+        int reward = Mathf.Min(enemy.GoldReward, Mathf.Max(0, GetWaveGold(number) - PaidGold(number)));
+        if (number == 0) reward = enemy.GoldReward; // Inspector preview before wave 1.
+        if (number > 0) paidWaveGold[number] = PaidGold(number) + reward;
+        Gold += reward;
         FinishWaveIfEmpty();
         StateChanged?.Invoke();
     }

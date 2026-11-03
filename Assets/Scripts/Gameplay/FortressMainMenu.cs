@@ -124,6 +124,7 @@ public sealed class FortressMainMenu : MonoBehaviour
         TextAt(parent, "在森林与王城之间部署防线。\n选择战场，购买防御塔，迎击来犯之敌。", 20, muted, 84, 412, 660, 84);
         StartButton = ButtonAt(parent, "Start", "开始游戏   ›", 84, 548, 320, 66, gold, ink, ShowMapSelection);
         ButtonAt(parent, "Exit", "退出游戏", 84, 634, 320, 48, new Color32(27, 42, 47, 255), cream, ExitGame);
+        FortressAudioSettings.Create(parent, font, new Vector2(444, 548), 310);
         TextAt(parent, "拖卡建塔  /  自由缩放  /  多地图防守", 14, muted, 84, 757, 690, 28);
         var feature = Box(parent, "Featured Map", 1000, 566, 500, 248, new Color32(9, 21, 26, 224));
         Box(feature.transform, "Featured Line", 0, 0, 500, 3, maps[maps.Length - 1].accent);

@@ -83,7 +83,8 @@ public sealed class TowerBuildController : MonoBehaviour
     public bool BeginDrag(TowerKind kind, Vector2 screenPosition)
     {
         Cancel();
-        if (!CanAfford(kind)) { PlacementMessage?.Invoke("金币不足，击败敌人可获得金币"); return false; }
+        if (!CanAfford(kind)) { FortressAudio.Play(FortressSound.Invalid); PlacementMessage?.Invoke("金币不足，击败敌人可获得金币"); return false; }
+        FortressAudio.Play(FortressSound.CardPick);
         IsDragging = true;
         DraggedKind = kind;
         CreatePreview(kind);
@@ -134,6 +135,7 @@ public sealed class TowerBuildController : MonoBehaviour
         {
             spent = game.TrySpendGold(price);
             if (spent) built = site.TryBuild(Prefab(kind), builtTowersRoot);
+            if (built) FortressAudio.Play(FortressSound.Build, site.transform.position);
             return built;
         }
         finally

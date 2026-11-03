@@ -18,7 +18,13 @@ namespace RoyalFortress.ForestSanctuary
             presentation.startingLives = game.startingLives;
             presentation.ResetPresentation();
             presentation.simulationControlsEnabled = false;
-            game.StateChanged += Refresh; subscribed = true; Refresh();
+            game.StateChanged += Refresh; game.DebugWaveJumped += ResetForDebug; subscribed = true; Refresh();
+        }
+        private void ResetForDebug()
+        {
+            presentation.ResetPresentation();
+            presentation.simulationControlsEnabled = false;
+            Refresh();
         }
         private void Refresh()
         {
@@ -29,6 +35,6 @@ namespace RoyalFortress.ForestSanctuary
             while (presentation.CompletedWaves < game.CompletedWaves)
                 if (!presentation.NotifyWaveCleared(presentation.CompletedWaves + 1, game.Lives)) break;
         }
-        private void OnDestroy() { if (subscribed && game != null) game.StateChanged -= Refresh; }
+        private void OnDestroy() { if (subscribed && game != null) { game.StateChanged -= Refresh; game.DebugWaveJumped -= ResetForDebug; } }
     }
 }

@@ -109,6 +109,8 @@ namespace KingdomBorder.TwinTowers
 
         private void ApplyImpact(Vector3 aim)
         {
+            FortressAudio.Play(kind == TowerKind.Arrow ? FortressSound.ArrowHit
+                : kind == TowerKind.Artillery ? FortressSound.StoneHit : FortressSound.MagicHit, aim);
             if (splashRadius > 0.01f)
             {
                 float radiusSquared = splashRadius * splashRadius;

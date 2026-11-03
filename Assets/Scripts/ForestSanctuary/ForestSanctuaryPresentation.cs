@@ -122,6 +122,7 @@ namespace RoyalFortress.ForestSanctuary
         {
             if (!CanReleasePulse) return false;
             StoredPulse = 0; PulseTime = 0; PulseCount++;
+            FortressAudio.Play(FortressSound.Pulse, crystal ? crystal.transform.position : transform.position);
             RenderLayers(); StateChanged?.Invoke(); onPurificationPulse.Invoke(); return true;
         }
         public bool TryBeginCompletion()
