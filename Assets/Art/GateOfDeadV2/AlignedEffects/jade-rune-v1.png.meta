@@ -1,0 +1,3055 @@
+fileFormatVersion: 2
+guid: a7e7eaffb46767049b22afa730994236
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7986337288321744413
+    second: jade-rune-v1_0
+  - first:
+      213: -181915326161972493
+    second: jade-rune-v1_1
+  - first:
+      213: -2265014197627907356
+    second: jade-rune-v1_2
+  - first:
+      213: 2561243090876876544
+    second: jade-rune-v1_3
+  - first:
+      213: -7257397173414683080
+    second: jade-rune-v1_4
+  - first:
+      213: 4903444446518298837
+    second: jade-rune-v1_5
+  - first:
+      213: -1954479557970907962
+    second: jade-rune-v1_6
+  - first:
+      213: -1046943647397654855
+    second: jade-rune-v1_7
+  - first:
+      213: 7046160294461641455
+    second: jade-rune-v1_8
+  - first:
+      213: -5660392185576836990
+    second: jade-rune-v1_9
+  - first:
+      213: -4492014533030459832
+    second: jade-rune-v1_10
+  - first:
+      213: 2819059841839962879
+    second: jade-rune-v1_11
+  - first:
+      213: 7876593278261467477
+    second: jade-rune-v1_12
+  - first:
+      213: 2074790504591016806
+    second: jade-rune-v1_13
+  - first:
+      213: 6087653686915506758
+    second: jade-rune-v1_14
+  - first:
+      213: -3688019870251330374
+    second: jade-rune-v1_15
+  - first:
+      213: -1235146722259772550
+    second: jade-rune-v1_16
+  - first:
+      213: -5477073647165187670
+    second: jade-rune-v1_17
+  - first:
+      213: 6805532795726010382
+    second: jade-rune-v1_18
+  - first:
+      213: -2393634381820406867
+    second: jade-rune-v1_19
+  - first:
+      213: -744987126827691613
+    second: jade-rune-v1_20
+  - first:
+      213: -8725159838285403913
+    second: jade-rune-v1_21
+  - first:
+      213: 5618064717233548203
+    second: jade-rune-v1_22
+  - first:
+      213: 3615559483976437481
+    second: jade-rune-v1_23
+  - first:
+      213: -6878471075873078873
+    second: jade-rune-v1_24
+  - first:
+      213: 6048112107169335933
+    second: jade-rune-v1_25
+  - first:
+      213: 4898680751630519634
+    second: jade-rune-v1_26
+  - first:
+      213: 1080969051139634567
+    second: jade-rune-v1_27
+  - first:
+      213: -2006561188966657022
+    second: jade-rune-v1_28
+  - first:
+      213: -8652134617827198537
+    second: jade-rune-v1_29
+  - first:
+      213: 7592129388885375095
+    second: jade-rune-v1_30
+  - first:
+      213: 544585357190137575
+    second: jade-rune-v1_31
+  - first:
+      213: 5422048578032005991
+    second: jade-rune-v1_32
+  - first:
+      213: 2037155834540996298
+    second: jade-rune-v1_33
+  - first:
+      213: 6994596328261758824
+    second: jade-rune-v1_34
+  - first:
+      213: -6990775094444983701
+    second: jade-rune-v1_35
+  - first:
+      213: 2643617052331409474
+    second: jade-rune-v1_36
+  - first:
+      213: -7299613122639578411
+    second: jade-rune-v1_37
+  - first:
+      213: 790491416002296579
+    second: jade-rune-v1_38
+  - first:
+      213: -4154272075715600037
+    second: jade-rune-v1_39
+  - first:
+      213: 8882715622910361959
+    second: jade-rune-v1_40
+  - first:
+      213: -3914126237358989340
+    second: jade-rune-v1_41
+  - first:
+      213: -1630263352342263588
+    second: jade-rune-v1_42
+  - first:
+      213: 2219660362604913010
+    second: jade-rune-v1_43
+  - first:
+      213: -9197973370063542588
+    second: jade-rune-v1_44
+  - first:
+      213: 3699482368599627065
+    second: jade-rune-v1_45
+  - first:
+      213: -1561065182827638592
+    second: jade-rune-v1_46
+  - first:
+      213: 3593180228643812679
+    second: jade-rune-v1_47
+  - first:
+      213: -588285039718910932
+    second: jade-rune-v1_48
+  - first:
+      213: 8331694857535603419
+    second: jade-rune-v1_49
+  - first:
+      213: 4570833213133811041
+    second: jade-rune-v1_50
+  - first:
+      213: 7251900435605510201
+    second: jade-rune-v1_51
+  - first:
+      213: 6134233719825719432
+    second: jade-rune-v1_52
+  - first:
+      213: -7788160123989887410
+    second: jade-rune-v1_53
+  - first:
+      213: 7656076383658887131
+    second: jade-rune-v1_54
+  - first:
+      213: -1403727098008125409
+    second: jade-rune-v1_55
+  - first:
+      213: -4860413892973994052
+    second: jade-rune-v1_56
+  - first:
+      213: -7075411703092519141
+    second: jade-rune-v1_57
+  - first:
+      213: -8263962098337445706
+    second: jade-rune-v1_58
+  - first:
+      213: 4427964463749885636
+    second: jade-rune-v1_59
+  - first:
+      213: -7097394563423629241
+    second: jade-rune-v1_60
+  - first:
+      213: 2972264963377195253
+    second: jade-rune-v1_61
+  - first:
+      213: 6321831764008837212
+    second: jade-rune-v1_62
+  - first:
+      213: 7279743241821798392
+    second: jade-rune-v1_63
+  - first:
+      213: 4357419198942755791
+    second: jade-rune-v1_64
+  - first:
+      213: 5379734496818645311
+    second: jade-rune-v1_65
+  - first:
+      213: -3128610720018939230
+    second: jade-rune-v1_66
+  - first:
+      213: 393902103309330427
+    second: jade-rune-v1_67
+  - first:
+      213: -8688863573136219445
+    second: jade-rune-v1_68
+  - first:
+      213: -6348807210096509548
+    second: jade-rune-v1_69
+  - first:
+      213: 7973382543717349120
+    second: jade-rune-v1_70
+  - first:
+      213: -8318154208129687796
+    second: jade-rune-v1_71
+  - first:
+      213: 5607560547917912145
+    second: jade-rune-v1_72
+  - first:
+      213: -5691740597357314060
+    second: jade-rune-v1_73
+  - first:
+      213: 7539665138287022374
+    second: jade-rune-v1_74
+  - first:
+      213: -3195084963533219236
+    second: jade-rune-v1_75
+  - first:
+      213: 589274587024692362
+    second: jade-rune-v1_76
+  - first:
+      213: 8094747625199346512
+    second: jade-rune-v1_77
+  - first:
+      213: 8961986221821420084
+    second: jade-rune-v1_78
+  - first:
+      213: 899102922145037779
+    second: jade-rune-v1_79
+  - first:
+      213: 155986781044880184
+    second: jade-rune-v1_80
+  - first:
+      213: 3523804713013152497
+    second: jade-rune-v1_81
+  - first:
+      213: -7676533949278963185
+    second: jade-rune-v1_82
+  - first:
+      213: 3979142402803616567
+    second: jade-rune-v1_83
+  - first:
+      213: 7630277399403167748
+    second: jade-rune-v1_84
+  - first:
+      213: -3808648113195453991
+    second: jade-rune-v1_85
+  - first:
+      213: 5579112199133347970
+    second: jade-rune-v1_86
+  - first:
+      213: -819568239438614105
+    second: jade-rune-v1_87
+  - first:
+      213: -8604644431917824717
+    second: jade-rune-v1_88
+  - first:
+      213: -7593564445678761076
+    second: jade-rune-v1_89
+  - first:
+      213: -213289148362861025
+    second: jade-rune-v1_90
+  - first:
+      213: 5770379752618757737
+    second: jade-rune-v1_91
+  - first:
+      213: 8884985645311911143
+    second: jade-rune-v1_92
+  - first:
+      213: -8903947944887289627
+    second: jade-rune-v1_93
+  - first:
+      213: -4470196888835061005
+    second: jade-rune-v1_94
+  - first:
+      213: 9104986027122981506
+    second: jade-rune-v1_95
+  - first:
+      213: -2738897901844906705
+    second: jade-rune-v1_96
+  - first:
+      213: 1726524491488041842
+    second: jade-rune-v1_97
+  - first:
+      213: 8074420942236776894
+    second: jade-rune-v1_98
+  - first:
+      213: -906472381447505704
+    second: jade-rune-v1_99
+  - first:
+      213: 1203467276648576892
+    second: jade-rune-v1_100
+  - first:
+      213: -4596550694043152137
+    second: jade-rune-v1_101
+  - first:
+      213: -4802366237474452789
+    second: jade-rune-v1_102
+  - first:
+      213: 3118139839589665306
+    second: jade-rune-v1_103
+  - first:
+      213: -8169147418317210632
+    second: jade-rune-v1_104
+  - first:
+      213: 5918096036307585065
+    second: jade-rune-v1_105
+  - first:
+      213: -1640075211113662618
+    second: jade-rune-v1_106
+  - first:
+      213: -433752445747771628
+    second: jade-rune-v1_107
+  - first:
+      213: -166887209130338087
+    second: jade-rune-v1_108
+  - first:
+      213: 719798923256698777
+    second: jade-rune-v1_109
+  - first:
+      213: -6655901890334546184
+    second: jade-rune-v1_110
+  - first:
+      213: 5900373088201199759
+    second: jade-rune-v1_111
+  - first:
+      213: 7520888141639508174
+    second: jade-rune-v1_112
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jade-rune-v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 515
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ebfd6437b25de60800000000000000
+      internalID: 7986337288321744413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_1
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 791
+        width: 233
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f29ae489f4b97df0800000000000000
+      internalID: -181915326161972493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 918
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e21c2b769d0190e0800000000000000
+      internalID: -2265014197627907356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_3
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 904
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007c327650d5b8320800000000000000
+      internalID: 2561243090876876544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_4
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 821
+        width: 65
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e91bcd8bb884b90800000000000000
+      internalID: -7257397173414683080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_5
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 55
+        width: 701
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8c59a9eb88c0440800000000000000
+      internalID: 4903444446518298837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_6
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 910
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cca162823b40e4e0800000000000000
+      internalID: -1954479557970907962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_7
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 865
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bec205bc428871f0800000000000000
+      internalID: -1046943647397654855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_8
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 887
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe219d5a47df8c160800000000000000
+      internalID: 7046160294461641455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_9
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 895
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280bb491c4f3271b0800000000000000
+      internalID: -5660392185576836990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 895
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846c3d8f49829a1c0800000000000000
+      internalID: -4492014533030459832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_11
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 851
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa90797dff4f1720800000000000000
+      internalID: 2819059841839962879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_12
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 857
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5591107cad74f4d60800000000000000
+      internalID: 7876593278261467477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_13
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 855
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6634081a8f22bcc10800000000000000
+      internalID: 2074790504591016806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_14
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 869
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642223446c0bb7450800000000000000
+      internalID: 6087653686915506758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_15
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 817
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4561dc77581dcc0800000000000000
+      internalID: -3688019870251330374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_16
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 847
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bd736a990ebdee0800000000000000
+      internalID: -1235146722259772550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_17
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 755
+        width: 113
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9d01469868df3b0800000000000000
+      internalID: -5477073647165187670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_18
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 767
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08158c350c127e50800000000000000
+      internalID: 6805532795726010382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_19
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 759
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3de65363a18ced0800000000000000
+      internalID: -2393634381820406867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_20
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 782
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1523fb72649a5f0800000000000000
+      internalID: -744987126827691613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_21
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 795
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f86e7eda510ae680800000000000000
+      internalID: -8725159838285403913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_22
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 775
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab6cd3381067fd40800000000000000
+      internalID: 5618064717233548203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_23
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 686
+        width: 73
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eec5b2d13c0d2230800000000000000
+      internalID: 3615559483976437481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_24
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 705
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a149cc0003ca80a0800000000000000
+      internalID: -6878471075873078873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_25
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 750
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a419dcae53fe350800000000000000
+      internalID: 6048112107169335933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_26
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 755
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d0bf4703c9bf340800000000000000
+      internalID: 4898680751630519634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_27
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 750
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7857e52ff9f500f00800000000000000
+      internalID: 1080969051139634567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_28
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 725
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2049e87da334724e0800000000000000
+      internalID: -2006561188966657022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_29
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 223
+        width: 453
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9bc83f7617de780800000000000000
+      internalID: -8652134617827198537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_30
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 732
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778f0515479ac5960800000000000000
+      internalID: 7592129388885375095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_31
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 727
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6823d3f71ce8700800000000000000
+      internalID: 544585357190137575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 603
+        width: 97
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7637288547cfe3b40800000000000000
+      internalID: 5422048578032005991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_33
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 736
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac63eed207e654c10800000000000000
+      internalID: 2037155834540996298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_34
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 711
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f2b453d4cc11160800000000000000
+      internalID: 6994596328261758824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_35
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 718
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a75fe1717cbfe90800000000000000
+      internalID: -6990775094444983701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_36
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 723
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240016ed3b300b420800000000000000
+      internalID: 2643617052331409474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 605
+        width: 65
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dab94b3a8092ba90800000000000000
+      internalID: -7299613122639578411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_38
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 671
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bffc031c368fa00800000000000000
+      internalID: 790491416002296579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_39
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 679
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51a5a2be8f0956c0800000000000000
+      internalID: -4154272075715600037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_40
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 679
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7618260ebceb54b70800000000000000
+      internalID: 8882715622910361959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_41
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 647
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef5e20dcea3ea9c0800000000000000
+      internalID: -3914126237358989340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_42
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 647
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd84d495e142069e0800000000000000
+      internalID: -1630263352342263588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_43
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 661
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271a41be651ddce10800000000000000
+      internalID: 2219660362604913010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_44
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 621
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c62cdfe3fb3a5080800000000000000
+      internalID: -9197973370063542588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 579
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93593311d93375330800000000000000
+      internalID: 3699482368599627065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_46
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 621
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c01452bc7bf55ae0800000000000000
+      internalID: -1561065182827638592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_47
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 535
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7457546616a8dd130800000000000000
+      internalID: 3593180228643812679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_48
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 596
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24b0ec8fddf5d7f0800000000000000
+      internalID: -588285039718910932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_49
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 594
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2cb58645020a370800000000000000
+      internalID: 8331694857535603419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_50
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 583
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16de56c079cde6f30800000000000000
+      internalID: 4570833213133811041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_51
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 596
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93854c2260de3a460800000000000000
+      internalID: 7251900435605510201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_52
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 583
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8806f6f411d212550800000000000000
+      internalID: 6134233719825719432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_53
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 477
+        width: 51
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4678b371a5eae390800000000000000
+      internalID: -7788160123989887410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_54
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 574
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7ce3548e8df3a60800000000000000
+      internalID: 7656076383658887131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_55
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 574
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10c2a144a5f48ce0800000000000000
+      internalID: -1403727098008125409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_56
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 575
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf59efd0575c8cb0800000000000000
+      internalID: -4860413892973994052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_57
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 519
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f578d0b861fcd90800000000000000
+      internalID: -7075411703092519141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_58
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 539
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b80e438142805d80800000000000000
+      internalID: -8263962098337445706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_59
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 553
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce6ddb283a437d30800000000000000
+      internalID: 4427964463749885636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_60
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 463
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74098588f3df08d90800000000000000
+      internalID: -7097394563423629241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_61
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 461
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8ef688c3b9f3920800000000000000
+      internalID: 2972264963377195253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_62
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 471
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50278fae78abb750800000000000000
+      internalID: 6321831764008837212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_63
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 473
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffb6d0a8e7d60560800000000000000
+      internalID: 7279743241821798392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_64
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 477
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb3372cca9a87c30800000000000000
+      internalID: 4357419198942755791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_65
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 463
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f394ac49508a8aa40800000000000000
+      internalID: 5379734496818645311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_66
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 479
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2cac05021f494d0800000000000000
+      internalID: -3128610720018939230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_67
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 453
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7280040eb677500800000000000000
+      internalID: 393902103309330427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_68
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 399
+        width: 71
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc26265ad94fa6780800000000000000
+      internalID: -8688863573136219445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_69
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 461
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d32c6da7184e7a0800000000000000
+      internalID: -6348807210096509548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_70
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 447
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007b290cd2527ae60800000000000000
+      internalID: 7973382543717349120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_71
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 375
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f5285b1daff8c80800000000000000
+      internalID: -8318154208129687796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_72
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 415
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1585423bb9e02dd40800000000000000
+      internalID: 5607560547917912145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_73
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 407
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fff8d43510e201b0800000000000000
+      internalID: -5691740597357314060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_74
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 399
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6219ef41f7542a860800000000000000
+      internalID: 7539665138287022374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_75
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 337
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a19696727c8a3d0800000000000000
+      internalID: -3195084963533219236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_76
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 369
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8495c26d168d2800800000000000000
+      internalID: 589274587024692362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_77
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 363
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053a17ac312565070800000000000000
+      internalID: 8094747625199346512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_78
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 383
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4326c917cfe5f5c70800000000000000
+      internalID: 8961986221821420084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_79
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 353
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd78f218514a7c00800000000000000
+      internalID: 899102922145037779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_80
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 359
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83336d1a62d2a2200800000000000000
+      internalID: 155986781044880184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_81
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 317
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa0ff077b117e030800000000000000
+      internalID: 3523804713013152497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_82
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 101
+        width: 269
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a300f8b09777590800000000000000
+      internalID: -7676533949278963185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_83
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 269
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bcdc5dee0c83730800000000000000
+      internalID: 3979142402803616567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_84
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 283
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4000e192ed034e960800000000000000
+      internalID: 7630277399403167748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 253
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1f58a58b6f42bc0800000000000000
+      internalID: -3808648113195453991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 301
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28044675cfcfc6d40800000000000000
+      internalID: 5579112199133347970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_87
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 257
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1b11b470f40a4f0800000000000000
+      internalID: -819568239438614105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_88
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 191
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335cef08a79269880800000000000000
+      internalID: -8604644431917824717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_89
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 223
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b084c7e5d3e9690800000000000000
+      internalID: -7593564445678761076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_90
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 207
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16d26d46ae3a0df0800000000000000
+      internalID: -213289148362861025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_91
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 141
+        width: 63
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e82fdefc1841050800000000000000
+      internalID: 5770379752618757737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_92
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 175
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4e247ae5fcd4b70800000000000000
+      internalID: 8884985645311911143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_93
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 185
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e87c6ee482de6480800000000000000
+      internalID: -8903947944887289627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_94
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 133
+        width: 83
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa0eec1d9ba6f1c0800000000000000
+      internalID: -4470196888835061005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_95
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 139
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a7f872d886b5e70800000000000000
+      internalID: 9104986027122981506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_96
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 143
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2db87c9eda7df9d0800000000000000
+      internalID: -2738897901844906705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_97
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 108
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b1823a0e8d5f710800000000000000
+      internalID: 1726524491488041842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_98
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 95
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb97ffc111b1e0070800000000000000
+      internalID: 8074420942236776894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_99
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 127
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d87e19fb209b63f0800000000000000
+      internalID: -906472381447505704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_100
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77f173ac1393b010800000000000000
+      internalID: 1203467276648576892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_101
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 125
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f09b715f75c530c0800000000000000
+      internalID: -4596550694043152137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_102
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 93
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca810ed9519a5db0800000000000000
+      internalID: -4802366237474452789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_103
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a4cbad9abd54b20800000000000000
+      internalID: 3118139839589665306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_104
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 110
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb376d74bb51ae80800000000000000
+      internalID: -8169147418317210632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_105
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 103
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928c2c65dfc412250800000000000000
+      internalID: 5918096036307585065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_106
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 95
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66775a4f8484d39e0800000000000000
+      internalID: -1640075211113662618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_107
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 109
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4174fbed2700bf9f0800000000000000
+      internalID: -433752445747771628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_108
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 23
+        width: 49
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8da3ea7f81fadf0800000000000000
+      internalID: -166887209130338087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_109
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 93
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9979c6a9e4d3df900800000000000000
+      internalID: 719798923256698777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_110
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 98
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f622c6ce7c71a3a0800000000000000
+      internalID: -6655901890334546184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_111
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 95
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80d18cef0652e150800000000000000
+      internalID: 5900373088201199759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jade-rune-v1_112
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 69
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0eedddaef8f5860800000000000000
+      internalID: 7520888141639508174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jade-rune-v1_0: 7986337288321744413
+      jade-rune-v1_1: -181915326161972493
+      jade-rune-v1_10: -4492014533030459832
+      jade-rune-v1_100: 1203467276648576892
+      jade-rune-v1_101: -4596550694043152137
+      jade-rune-v1_102: -4802366237474452789
+      jade-rune-v1_103: 3118139839589665306
+      jade-rune-v1_104: -8169147418317210632
+      jade-rune-v1_105: 5918096036307585065
+      jade-rune-v1_106: -1640075211113662618
+      jade-rune-v1_107: -433752445747771628
+      jade-rune-v1_108: -166887209130338087
+      jade-rune-v1_109: 719798923256698777
+      jade-rune-v1_11: 2819059841839962879
+      jade-rune-v1_110: -6655901890334546184
+      jade-rune-v1_111: 5900373088201199759
+      jade-rune-v1_112: 7520888141639508174
+      jade-rune-v1_12: 7876593278261467477
+      jade-rune-v1_13: 2074790504591016806
+      jade-rune-v1_14: 6087653686915506758
+      jade-rune-v1_15: -3688019870251330374
+      jade-rune-v1_16: -1235146722259772550
+      jade-rune-v1_17: -5477073647165187670
+      jade-rune-v1_18: 6805532795726010382
+      jade-rune-v1_19: -2393634381820406867
+      jade-rune-v1_2: -2265014197627907356
+      jade-rune-v1_20: -744987126827691613
+      jade-rune-v1_21: -8725159838285403913
+      jade-rune-v1_22: 5618064717233548203
+      jade-rune-v1_23: 3615559483976437481
+      jade-rune-v1_24: -6878471075873078873
+      jade-rune-v1_25: 6048112107169335933
+      jade-rune-v1_26: 4898680751630519634
+      jade-rune-v1_27: 1080969051139634567
+      jade-rune-v1_28: -2006561188966657022
+      jade-rune-v1_29: -8652134617827198537
+      jade-rune-v1_3: 2561243090876876544
+      jade-rune-v1_30: 7592129388885375095
+      jade-rune-v1_31: 544585357190137575
+      jade-rune-v1_32: 5422048578032005991
+      jade-rune-v1_33: 2037155834540996298
+      jade-rune-v1_34: 6994596328261758824
+      jade-rune-v1_35: -6990775094444983701
+      jade-rune-v1_36: 2643617052331409474
+      jade-rune-v1_37: -7299613122639578411
+      jade-rune-v1_38: 790491416002296579
+      jade-rune-v1_39: -4154272075715600037
+      jade-rune-v1_4: -7257397173414683080
+      jade-rune-v1_40: 8882715622910361959
+      jade-rune-v1_41: -3914126237358989340
+      jade-rune-v1_42: -1630263352342263588
+      jade-rune-v1_43: 2219660362604913010
+      jade-rune-v1_44: -9197973370063542588
+      jade-rune-v1_45: 3699482368599627065
+      jade-rune-v1_46: -1561065182827638592
+      jade-rune-v1_47: 3593180228643812679
+      jade-rune-v1_48: -588285039718910932
+      jade-rune-v1_49: 8331694857535603419
+      jade-rune-v1_5: 4903444446518298837
+      jade-rune-v1_50: 4570833213133811041
+      jade-rune-v1_51: 7251900435605510201
+      jade-rune-v1_52: 6134233719825719432
+      jade-rune-v1_53: -7788160123989887410
+      jade-rune-v1_54: 7656076383658887131
+      jade-rune-v1_55: -1403727098008125409
+      jade-rune-v1_56: -4860413892973994052
+      jade-rune-v1_57: -7075411703092519141
+      jade-rune-v1_58: -8263962098337445706
+      jade-rune-v1_59: 4427964463749885636
+      jade-rune-v1_6: -1954479557970907962
+      jade-rune-v1_60: -7097394563423629241
+      jade-rune-v1_61: 2972264963377195253
+      jade-rune-v1_62: 6321831764008837212
+      jade-rune-v1_63: 7279743241821798392
+      jade-rune-v1_64: 4357419198942755791
+      jade-rune-v1_65: 5379734496818645311
+      jade-rune-v1_66: -3128610720018939230
+      jade-rune-v1_67: 393902103309330427
+      jade-rune-v1_68: -8688863573136219445
+      jade-rune-v1_69: -6348807210096509548
+      jade-rune-v1_7: -1046943647397654855
+      jade-rune-v1_70: 7973382543717349120
+      jade-rune-v1_71: -8318154208129687796
+      jade-rune-v1_72: 5607560547917912145
+      jade-rune-v1_73: -5691740597357314060
+      jade-rune-v1_74: 7539665138287022374
+      jade-rune-v1_75: -3195084963533219236
+      jade-rune-v1_76: 589274587024692362
+      jade-rune-v1_77: 8094747625199346512
+      jade-rune-v1_78: 8961986221821420084
+      jade-rune-v1_79: 899102922145037779
+      jade-rune-v1_8: 7046160294461641455
+      jade-rune-v1_80: 155986781044880184
+      jade-rune-v1_81: 3523804713013152497
+      jade-rune-v1_82: -7676533949278963185
+      jade-rune-v1_83: 3979142402803616567
+      jade-rune-v1_84: 7630277399403167748
+      jade-rune-v1_85: -3808648113195453991
+      jade-rune-v1_86: 5579112199133347970
+      jade-rune-v1_87: -819568239438614105
+      jade-rune-v1_88: -8604644431917824717
+      jade-rune-v1_89: -7593564445678761076
+      jade-rune-v1_9: -5660392185576836990
+      jade-rune-v1_90: -213289148362861025
+      jade-rune-v1_91: 5770379752618757737
+      jade-rune-v1_92: 8884985645311911143
+      jade-rune-v1_93: -8903947944887289627
+      jade-rune-v1_94: -4470196888835061005
+      jade-rune-v1_95: 9104986027122981506
+      jade-rune-v1_96: -2738897901844906705
+      jade-rune-v1_97: 1726524491488041842
+      jade-rune-v1_98: 8074420942236776894
+      jade-rune-v1_99: -906472381447505704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

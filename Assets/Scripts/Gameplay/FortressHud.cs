@@ -75,7 +75,7 @@ public sealed class FortressHud : MonoBehaviour
     }
     private void Update()
     {
-        if (!ready) return;
+        if (!ready || game.StoryOverlayActive) return;
 #if ENABLE_INPUT_SYSTEM
         if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame) EscapeMenu();
 #elif ENABLE_LEGACY_INPUT_MANAGER
@@ -90,7 +90,7 @@ public sealed class FortressHud : MonoBehaviour
     }
     public void ShowPauseMenu(bool show)
     {
-        if (!ready) return;
+        if (!ready || game.StoryOverlayActive) return;
         if (debugConsole && debugConsole.IsOpen) debugConsole.Close();
         build.Cancel();
         game.SetPaused(show);
