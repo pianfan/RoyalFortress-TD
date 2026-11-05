@@ -1,0 +1,3679 @@
+fileFormatVersion: 2
+guid: 955ff5ad7010a8d41aaf2b3e0084b9fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2649385291328141188
+    second: beam-sheet_0
+  - first:
+      213: 4136336147516928292
+    second: beam-sheet_1
+  - first:
+      213: 4546364590962924332
+    second: beam-sheet_2
+  - first:
+      213: -2902980916326608852
+    second: beam-sheet_3
+  - first:
+      213: 7770293060051571576
+    second: beam-sheet_4
+  - first:
+      213: -5227302958866396399
+    second: beam-sheet_5
+  - first:
+      213: -8390437357511104866
+    second: beam-sheet_6
+  - first:
+      213: 5265465439346093770
+    second: beam-sheet_7
+  - first:
+      213: -8967627560154253233
+    second: beam-sheet_8
+  - first:
+      213: -2196464990939221937
+    second: beam-sheet_9
+  - first:
+      213: -128571225216363472
+    second: beam-sheet_10
+  - first:
+      213: 6735742554403175089
+    second: beam-sheet_11
+  - first:
+      213: -968006082167383382
+    second: beam-sheet_12
+  - first:
+      213: 4128189072033689619
+    second: beam-sheet_13
+  - first:
+      213: 6235275361221238277
+    second: beam-sheet_14
+  - first:
+      213: -8035651155932166843
+    second: beam-sheet_15
+  - first:
+      213: 6104491626544262799
+    second: beam-sheet_16
+  - first:
+      213: 3058066132664700894
+    second: beam-sheet_17
+  - first:
+      213: -8309468769297834094
+    second: beam-sheet_18
+  - first:
+      213: -6606496794124014100
+    second: beam-sheet_19
+  - first:
+      213: 339580125437334996
+    second: beam-sheet_20
+  - first:
+      213: -6533137700347366235
+    second: beam-sheet_21
+  - first:
+      213: -4075293692567031545
+    second: beam-sheet_22
+  - first:
+      213: 4430626847864200388
+    second: beam-sheet_23
+  - first:
+      213: 6158981801079298588
+    second: beam-sheet_24
+  - first:
+      213: -4949888312039347173
+    second: beam-sheet_25
+  - first:
+      213: -4575814113744529250
+    second: beam-sheet_26
+  - first:
+      213: 8327492333703149737
+    second: beam-sheet_27
+  - first:
+      213: 2753837775039228534
+    second: beam-sheet_28
+  - first:
+      213: 5221417388319355832
+    second: beam-sheet_29
+  - first:
+      213: -1303704929189010178
+    second: beam-sheet_30
+  - first:
+      213: 8240183669815434178
+    second: beam-sheet_31
+  - first:
+      213: 6713283913924060773
+    second: beam-sheet_32
+  - first:
+      213: -5621758543248097092
+    second: beam-sheet_33
+  - first:
+      213: -4725058173000627375
+    second: beam-sheet_34
+  - first:
+      213: -2461537334386387763
+    second: beam-sheet_35
+  - first:
+      213: 7307288312128575689
+    second: beam-sheet_36
+  - first:
+      213: 1050959590276269241
+    second: beam-sheet_37
+  - first:
+      213: -753189580817911258
+    second: beam-sheet_38
+  - first:
+      213: -8509412083280973822
+    second: beam-sheet_39
+  - first:
+      213: 1902723532930096696
+    second: beam-sheet_40
+  - first:
+      213: 3268320417433010148
+    second: beam-sheet_41
+  - first:
+      213: 1667078693086350024
+    second: beam-sheet_42
+  - first:
+      213: 4350802495650784296
+    second: beam-sheet_43
+  - first:
+      213: -6194181013188258953
+    second: beam-sheet_44
+  - first:
+      213: 4912544604047791088
+    second: beam-sheet_45
+  - first:
+      213: -2078036468447680919
+    second: beam-sheet_46
+  - first:
+      213: -7597652635291947974
+    second: beam-sheet_47
+  - first:
+      213: 5800923363028110707
+    second: beam-sheet_48
+  - first:
+      213: 771340136543646573
+    second: beam-sheet_49
+  - first:
+      213: 2253208468213175550
+    second: beam-sheet_50
+  - first:
+      213: -4305587027376448359
+    second: beam-sheet_51
+  - first:
+      213: 8888444144570634411
+    second: beam-sheet_52
+  - first:
+      213: -7307859499995529393
+    second: beam-sheet_53
+  - first:
+      213: 6221357775001220787
+    second: beam-sheet_54
+  - first:
+      213: -4816643581609457534
+    second: beam-sheet_55
+  - first:
+      213: 2924188227232769134
+    second: beam-sheet_56
+  - first:
+      213: -774192877944815236
+    second: beam-sheet_57
+  - first:
+      213: 7220496076656737768
+    second: beam-sheet_58
+  - first:
+      213: 8340551562048218766
+    second: beam-sheet_59
+  - first:
+      213: 6458307599433031238
+    second: beam-sheet_60
+  - first:
+      213: -3790079703339783890
+    second: beam-sheet_61
+  - first:
+      213: 2576729428352668085
+    second: beam-sheet_62
+  - first:
+      213: -7428858994141205836
+    second: beam-sheet_63
+  - first:
+      213: -3392782375594284030
+    second: beam-sheet_64
+  - first:
+      213: 8936723327811628127
+    second: beam-sheet_65
+  - first:
+      213: -8872885161711562364
+    second: beam-sheet_66
+  - first:
+      213: -550497466097243129
+    second: beam-sheet_67
+  - first:
+      213: 2464413484457591783
+    second: beam-sheet_68
+  - first:
+      213: -4322756023293213633
+    second: beam-sheet_69
+  - first:
+      213: -253262756880555117
+    second: beam-sheet_70
+  - first:
+      213: -2076215609630615047
+    second: beam-sheet_71
+  - first:
+      213: -1233279893036294113
+    second: beam-sheet_72
+  - first:
+      213: 2442537033712329289
+    second: beam-sheet_73
+  - first:
+      213: 6461020521017530879
+    second: beam-sheet_74
+  - first:
+      213: -6363344206152570629
+    second: beam-sheet_75
+  - first:
+      213: 5161944648845356228
+    second: beam-sheet_76
+  - first:
+      213: 5740620444091879063
+    second: beam-sheet_77
+  - first:
+      213: 7980566068425860696
+    second: beam-sheet_78
+  - first:
+      213: 6177083528002798600
+    second: beam-sheet_79
+  - first:
+      213: -5829735083093546062
+    second: beam-sheet_80
+  - first:
+      213: 4502539602423979883
+    second: beam-sheet_81
+  - first:
+      213: -1442457901682842881
+    second: beam-sheet_82
+  - first:
+      213: 4475623286526518604
+    second: beam-sheet_83
+  - first:
+      213: -4713607228082325154
+    second: beam-sheet_84
+  - first:
+      213: -4124769254471101959
+    second: beam-sheet_85
+  - first:
+      213: -1537805418496485826
+    second: beam-sheet_86
+  - first:
+      213: -4313339785283265413
+    second: beam-sheet_87
+  - first:
+      213: -1371880082542181859
+    second: beam-sheet_88
+  - first:
+      213: -7590575702880287873
+    second: beam-sheet_89
+  - first:
+      213: 1434526646389451319
+    second: beam-sheet_90
+  - first:
+      213: -5241823475278955969
+    second: beam-sheet_91
+  - first:
+      213: -2362316064088972456
+    second: beam-sheet_92
+  - first:
+      213: 7945920063104520722
+    second: beam-sheet_93
+  - first:
+      213: -7844992161142407461
+    second: beam-sheet_94
+  - first:
+      213: 339494288263160192
+    second: beam-sheet_95
+  - first:
+      213: 4651792054957394084
+    second: beam-sheet_96
+  - first:
+      213: 811397581316769008
+    second: beam-sheet_97
+  - first:
+      213: -153886124721624084
+    second: beam-sheet_98
+  - first:
+      213: 8567277797522949410
+    second: beam-sheet_99
+  - first:
+      213: 2724147248057158778
+    second: beam-sheet_100
+  - first:
+      213: 5712590781689751703
+    second: beam-sheet_101
+  - first:
+      213: 8149235287019331555
+    second: beam-sheet_102
+  - first:
+      213: 8593697208336450617
+    second: beam-sheet_103
+  - first:
+      213: 1824655442978883633
+    second: beam-sheet_104
+  - first:
+      213: -8429407019590422909
+    second: beam-sheet_105
+  - first:
+      213: 6368732198137182599
+    second: beam-sheet_106
+  - first:
+      213: 4602714762164859162
+    second: beam-sheet_107
+  - first:
+      213: 3509582053491999466
+    second: beam-sheet_108
+  - first:
+      213: 968327528760047276
+    second: beam-sheet_109
+  - first:
+      213: 4024891058528088074
+    second: beam-sheet_110
+  - first:
+      213: -8059739736993101069
+    second: beam-sheet_111
+  - first:
+      213: -8470234846911420916
+    second: beam-sheet_112
+  - first:
+      213: 7675978134629984298
+    second: beam-sheet_113
+  - first:
+      213: 3333905446373194725
+    second: beam-sheet_114
+  - first:
+      213: 1917965809924471569
+    second: beam-sheet_115
+  - first:
+      213: -2787265111039011877
+    second: beam-sheet_116
+  - first:
+      213: 40185819384408724
+    second: beam-sheet_117
+  - first:
+      213: 6420174092434542180
+    second: beam-sheet_118
+  - first:
+      213: -5538391657329872392
+    second: beam-sheet_119
+  - first:
+      213: 7560343051098876182
+    second: beam-sheet_120
+  - first:
+      213: 8960626930587048601
+    second: beam-sheet_121
+  - first:
+      213: -8590157975111673683
+    second: beam-sheet_122
+  - first:
+      213: -4600702912405476762
+    second: beam-sheet_123
+  - first:
+      213: 4647222674586047424
+    second: beam-sheet_124
+  - first:
+      213: -2319981708856566063
+    second: beam-sheet_125
+  - first:
+      213: 7269934562696038150
+    second: beam-sheet_126
+  - first:
+      213: 4248462569231842583
+    second: beam-sheet_127
+  - first:
+      213: 721479172719839580
+    second: beam-sheet_128
+  - first:
+      213: -537462067022098572
+    second: beam-sheet_129
+  - first:
+      213: 6280192321518288201
+    second: beam-sheet_130
+  - first:
+      213: 211304319827120650
+    second: beam-sheet_131
+  - first:
+      213: -8073160507484008731
+    second: beam-sheet_132
+  - first:
+      213: -919279769568847447
+    second: beam-sheet_133
+  - first:
+      213: 61554350125956740
+    second: beam-sheet_134
+  - first:
+      213: -5311283659863033465
+    second: beam-sheet_135
+  - first:
+      213: -5052172219266054572
+    second: beam-sheet_136
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beam-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1181
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78cd355d1e7b3bd0800000000000000
+      internalID: -2649385291328141188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1197
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421ba589fc7376930800000000000000
+      internalID: 4136336147516928292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 650
+        width: 316
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b52cff18ee71f30800000000000000
+      internalID: 4546364590962924332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1081
+        width: 49
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c205d9cbc3a86b7d0800000000000000
+      internalID: -2902980916326608852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1019
+        width: 76
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8739e0d8e50a5db60800000000000000
+      internalID: 7770293060051571576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1104
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b8b6387a3e477b0800000000000000
+      internalID: -5227302958866396399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1197
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9622638dad2f8b80800000000000000
+      internalID: -8390437357511104866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1175
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acee1516be0b21940800000000000000
+      internalID: 5265465439346093770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 278
+        width: 332
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48b00f1f369c8380800000000000000
+      internalID: -8967627560154253233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1173
+        width: 118
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f407c756ab69481e0800000000000000
+      internalID: -2196464990939221937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1036
+        width: 61
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03454a0e629373ef0800000000000000
+      internalID: -128571225216363472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1179
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bafead6a2a2a7d50800000000000000
+      internalID: 6735742554403175089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1114
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaadef3d893f092f0800000000000000
+      internalID: -968006082167383382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1111
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310b734c6164a4930800000000000000
+      internalID: 4128189072033689619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1104
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e5656b7e5288650800000000000000
+      internalID: 6235275361221238277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1060
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545c4bf29d1ab7090800000000000000
+      internalID: -8035651155932166843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1091
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e64869ac287b450800000000000000
+      internalID: 6104491626544262799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 907
+        width: 100
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfc12102fe607a20800000000000000
+      internalID: 3058066132664700894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1060
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fdcc50e26deac80800000000000000
+      internalID: -8309468769297834094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1064
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced2b702b220154a0800000000000000
+      internalID: -6606496794124014100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1073
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5997d235e66b400800000000000000
+      internalID: 339580125437334996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1016
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4351620e1a555a0800000000000000
+      internalID: -6533137700347366235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1026
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701f62b7af5a177c0800000000000000
+      internalID: -4075293692567031545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 970
+        width: 60
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc1147c4afbc7d30800000000000000
+      internalID: 4430626847864200388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1020
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a5d6ff059197550800000000000000
+      internalID: 6158981801079298588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 821
+        width: 86
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c690b4ec67e4bb0800000000000000
+      internalID: -4949888312039347173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 996
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98d908ae417f70c0800000000000000
+      internalID: -4575814113744529250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 959
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a83a241822319370800000000000000
+      internalID: 8327492333703149737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 948
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ae34eadd8973620800000000000000
+      internalID: 2753837775039228534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 931
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3b2de4373367840800000000000000
+      internalID: 5221417388319355832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 971
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef463c3364f48ede0800000000000000
+      internalID: -1303704929189010178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 897
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbd25ba3630b5270800000000000000
+      internalID: 8240183669815434178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1004
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566a9c5b6206a2d50800000000000000
+      internalID: 6713283913924060773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 947
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb00ea8e3608bf1b0800000000000000
+      internalID: -5621758543248097092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 867
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bcd3740a83d6eb0800000000000000
+      internalID: -4725058173000627375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 935
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4998e06dcd6ddd0800000000000000
+      internalID: -2461537334386387763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 899
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c899c31104b86560800000000000000
+      internalID: 7307288312128575689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 757
+        width: 57
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b405bbdd22c59e00800000000000000
+      internalID: 1050959590276269241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 809
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622b2da11122c85f0800000000000000
+      internalID: -753189580817911258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 883
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200fe988bce78e980800000000000000
+      internalID: -8509412083280973822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 873
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e131ed8f4d76a10800000000000000
+      internalID: 1902723532930096696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 864
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef30457a186b5d20800000000000000
+      internalID: 3268320417433010148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 835
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cac8022d37a22710800000000000000
+      internalID: 1667078693086350024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 778
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824e52971d7216c30800000000000000
+      internalID: 4350802495650784296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 770
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773d17acf29d90aa0800000000000000
+      internalID: -6194181013188258953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 810
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3d7832a4ddc2440800000000000000
+      internalID: 4912544604047791088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 802
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9666ed387d45923e0800000000000000
+      internalID: -2078036468447680919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 802
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cec9aae27bf8690800000000000000
+      internalID: -7597652635291947974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 666
+        width: 62
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d0e866015018050800000000000000
+      internalID: 5800923363028110707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 696
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d637fa774c954ba00800000000000000
+      internalID: 771340136543646573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 718
+        width: 78
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef49fb0f921054f10800000000000000
+      internalID: 2253208468213175550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_51
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 737
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c52bb196b7f34c0800000000000000
+      internalID: -4305587027376448359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_52
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 706
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba098034bd81a5b70800000000000000
+      internalID: 8888444144570634411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_53
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 745
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f7d42e084459a90800000000000000
+      internalID: -7307859499995529393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_54
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 742
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6ff872fe3b65650800000000000000
+      internalID: 6221357775001220787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 674
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288c084ae28d72db0800000000000000
+      internalID: -4816643581609457534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 714
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64a69c13bdc49820800000000000000
+      internalID: 2924188227232769134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_57
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 690
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71467aeda38145f0800000000000000
+      internalID: -774192877944815236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_58
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 401
+        width: 150
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edf9370dea543460800000000000000
+      internalID: 7220496076656737768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 690
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86a6be94779fb370800000000000000
+      internalID: 8340551562048218766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 700
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e596a4b8480a950800000000000000
+      internalID: 6458307599433031238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_61
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 288
+        width: 188
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29a30c279ee66bc0800000000000000
+      internalID: -3790079703339783890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_62
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 664
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1914353c162c320800000000000000
+      internalID: 2576729428352668085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_63
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 658
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba6fb7ca1467e890800000000000000
+      internalID: -7428858994141205836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 674
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c2f76b76a6ae0d0800000000000000
+      internalID: -3392782375594284030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 682
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ca822948e950c70800000000000000
+      internalID: 8936723327811628127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 654
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481195bb4fd2dd480800000000000000
+      internalID: -8872885161711562364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_67
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 640
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c6583a87d3c58f0800000000000000
+      internalID: -550497466097243129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_68
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 628
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e307c0d10b533220800000000000000
+      internalID: 2464413484457591783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_69
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 626
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f348decbc4c7204c0800000000000000
+      internalID: -4322756023293213633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_70
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 318
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3936c4d4dda3c7cf0800000000000000
+      internalID: -253262756880555117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_71
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 602
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f998de37eccf23e0800000000000000
+      internalID: -2076215609630615047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 626
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10a0f2b87282eee0800000000000000
+      internalID: -1233279893036294113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 586
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942e825bd72a5e120800000000000000
+      internalID: 2442537033712329289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_74
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 604
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff952c19ee72aa950800000000000000
+      internalID: 6461020521017530879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_75
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 600
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf86cb0b82cd0b7a0800000000000000
+      internalID: -6363344206152570629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_76
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 529
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cce7a81f49e2a740800000000000000
+      internalID: 5161944648845356228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_77
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 0
+        width: 308
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e0178f0e7caaf40800000000000000
+      internalID: 5740620444091879063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 570
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8562f0f6e8aa0ce60800000000000000
+      internalID: 7980566068425860696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_79
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 554
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804068abdb869b550800000000000000
+      internalID: 6177083528002798600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_80
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 535
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bba39544de981fa0800000000000000
+      internalID: -5829735083093546062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_81
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 548
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f1c95b9eb3c7e30800000000000000
+      internalID: 4502539602423979883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_82
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 535
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff22dbe4e2c5bfbe0800000000000000
+      internalID: -1442457901682842881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_83
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 564
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4521ed8aab9c1e30800000000000000
+      internalID: 4475623286526518604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_84
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 530
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5970772337e59eb0800000000000000
+      internalID: -4713607228082325154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_85
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 521
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f11cce8730e1c6c0800000000000000
+      internalID: -4124769254471101959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_86
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 538
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3698d89e1e98aae0800000000000000
+      internalID: -1537805418496485826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_87
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 536
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c91ae7150f324c0800000000000000
+      internalID: -4313339785283265413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_88
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 533
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12c3ad555a16fce0800000000000000
+      internalID: -1371880082542181859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 467
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f730c156d9bd8a690800000000000000
+      internalID: -7590575702880287873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_90
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 495
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a20ea626678e310800000000000000
+      internalID: 1434526646389451319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_91
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 481
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ab1b4525d4147b0800000000000000
+      internalID: -5241823475278955969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_92
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 418
+        width: 43
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85327c84e0e573fd0800000000000000
+      internalID: -2362316064088972456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_93
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 409
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2129ef6b234954e60800000000000000
+      internalID: 7945920063104520722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_94
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 424
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdef169a13df02390800000000000000
+      internalID: -7844992161142407461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_95
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 372
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0812337a14026b400800000000000000
+      internalID: 339494288263160192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_96
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 397
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a848bc4a3c7e8040800000000000000
+      internalID: 4651792054957394084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 357
+        width: 61
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f44ffd1dc9a24b00800000000000000
+      internalID: 811397581316769008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_98
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 465
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb2b1882694dddf0800000000000000
+      internalID: -153886124721624084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_99
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 455
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2254275f3c515e670800000000000000
+      internalID: 8567277797522949410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_100
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 308
+        width: 65
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c0e4c2d7d1ec520800000000000000
+      internalID: 2724147248057158778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_101
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 384
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798e9c1ac03374f40800000000000000
+      internalID: 5712590781689751703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_102
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 324
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef9dd92156e71170800000000000000
+      internalID: 8149235287019331555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_103
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 275
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93409226412f24770800000000000000
+      internalID: 8593697208336450617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_104
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 286
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1384d3c357a725910800000000000000
+      internalID: 1824655442978883633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_105
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 349
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ee0220afab40b80800000000000000
+      internalID: -8429407019590422909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_106
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 101
+        width: 93
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7893f83f038426850800000000000000
+      internalID: 6368732198137182599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_107
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 320
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a117841a0b020ef30800000000000000
+      internalID: 4602714762164859162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_108
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 232
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae20a78784a84b030800000000000000
+      internalID: 3509582053491999466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_109
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 335
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca679f9c1c0307d00800000000000000
+      internalID: 968327528760047276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_110
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 319
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00763bc7194bd730800000000000000
+      internalID: 4024891058528088074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_111
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 312
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa0d6a596d062090800000000000000
+      internalID: -8059739736993101069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_112
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 325
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06a5b1b84ea37a80800000000000000
+      internalID: -8470234846911420916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_113
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 355
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a282942c17d868a60800000000000000
+      internalID: 7675978134629984298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 251
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb70d5f659644e20800000000000000
+      internalID: 3333905446373194725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 306
+        width: 17
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b74e70ebbfd9a10800000000000000
+      internalID: 1917965809924471569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_116
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 82
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd31ea92625a159d0800000000000000
+      internalID: -2787265111039011877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_117
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 176
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a6a613ac4ce8000800000000000000
+      internalID: 40185819384408724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 220
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e0abf425a091950800000000000000
+      internalID: 6420174092434542180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_119
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 208
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1bddd912ea323b0800000000000000
+      internalID: -5538391657329872392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_120
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 106
+        width: 31
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61967d4d2fbbbe860800000000000000
+      internalID: 7560343051098876182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_121
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 160
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a907ac7ba8a5c70800000000000000
+      internalID: 8960626930587048601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_122
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 0
+        width: 93
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8daf095d0a9c880800000000000000
+      internalID: -8590157975111673683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_123
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 184
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a67f4a3150720c0800000000000000
+      internalID: -4600702912405476762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_124
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 134
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c397d686604e7040800000000000000
+      internalID: 4647222674586047424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_125
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 97
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de53367de4cdcfd0800000000000000
+      internalID: -2319981708856566063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 98
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60705dd87fef3e460800000000000000
+      internalID: 7269934562696038150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_127
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 143
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d7b98823295fa30800000000000000
+      internalID: 4248462569231842583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_128
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 95
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c590fca2c75330a00800000000000000
+      internalID: 721479172719839580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_129
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 71
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f86eef81d8a88f0800000000000000
+      internalID: -537462067022098572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_130
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 85
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94dbb3d74a9b72750800000000000000
+      internalID: 6280192321518288201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_131
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 17
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a021dcac824bee200800000000000000
+      internalID: 211304319827120650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_132
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 0
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee04b8ba4f56ff80800000000000000
+      internalID: -8073160507484008731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_133
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 35
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a955ad8bef0e33f0800000000000000
+      internalID: -919279769568847447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_134
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 0
+        width: 69
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e33a5fa5faad000800000000000000
+      internalID: 61554350125956740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_135
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 7
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789f688d6a78a46b0800000000000000
+      internalID: -5311283659863033465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam-sheet_136
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 17
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456cc86522413e9b0800000000000000
+      internalID: -5052172219266054572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      beam-sheet_0: -2649385291328141188
+      beam-sheet_1: 4136336147516928292
+      beam-sheet_10: -128571225216363472
+      beam-sheet_100: 2724147248057158778
+      beam-sheet_101: 5712590781689751703
+      beam-sheet_102: 8149235287019331555
+      beam-sheet_103: 8593697208336450617
+      beam-sheet_104: 1824655442978883633
+      beam-sheet_105: -8429407019590422909
+      beam-sheet_106: 6368732198137182599
+      beam-sheet_107: 4602714762164859162
+      beam-sheet_108: 3509582053491999466
+      beam-sheet_109: 968327528760047276
+      beam-sheet_11: 6735742554403175089
+      beam-sheet_110: 4024891058528088074
+      beam-sheet_111: -8059739736993101069
+      beam-sheet_112: -8470234846911420916
+      beam-sheet_113: 7675978134629984298
+      beam-sheet_114: 3333905446373194725
+      beam-sheet_115: 1917965809924471569
+      beam-sheet_116: -2787265111039011877
+      beam-sheet_117: 40185819384408724
+      beam-sheet_118: 6420174092434542180
+      beam-sheet_119: -5538391657329872392
+      beam-sheet_12: -968006082167383382
+      beam-sheet_120: 7560343051098876182
+      beam-sheet_121: 8960626930587048601
+      beam-sheet_122: -8590157975111673683
+      beam-sheet_123: -4600702912405476762
+      beam-sheet_124: 4647222674586047424
+      beam-sheet_125: -2319981708856566063
+      beam-sheet_126: 7269934562696038150
+      beam-sheet_127: 4248462569231842583
+      beam-sheet_128: 721479172719839580
+      beam-sheet_129: -537462067022098572
+      beam-sheet_13: 4128189072033689619
+      beam-sheet_130: 6280192321518288201
+      beam-sheet_131: 211304319827120650
+      beam-sheet_132: -8073160507484008731
+      beam-sheet_133: -919279769568847447
+      beam-sheet_134: 61554350125956740
+      beam-sheet_135: -5311283659863033465
+      beam-sheet_136: -5052172219266054572
+      beam-sheet_14: 6235275361221238277
+      beam-sheet_15: -8035651155932166843
+      beam-sheet_16: 6104491626544262799
+      beam-sheet_17: 3058066132664700894
+      beam-sheet_18: -8309468769297834094
+      beam-sheet_19: -6606496794124014100
+      beam-sheet_2: 4546364590962924332
+      beam-sheet_20: 339580125437334996
+      beam-sheet_21: -6533137700347366235
+      beam-sheet_22: -4075293692567031545
+      beam-sheet_23: 4430626847864200388
+      beam-sheet_24: 6158981801079298588
+      beam-sheet_25: -4949888312039347173
+      beam-sheet_26: -4575814113744529250
+      beam-sheet_27: 8327492333703149737
+      beam-sheet_28: 2753837775039228534
+      beam-sheet_29: 5221417388319355832
+      beam-sheet_3: -2902980916326608852
+      beam-sheet_30: -1303704929189010178
+      beam-sheet_31: 8240183669815434178
+      beam-sheet_32: 6713283913924060773
+      beam-sheet_33: -5621758543248097092
+      beam-sheet_34: -4725058173000627375
+      beam-sheet_35: -2461537334386387763
+      beam-sheet_36: 7307288312128575689
+      beam-sheet_37: 1050959590276269241
+      beam-sheet_38: -753189580817911258
+      beam-sheet_39: -8509412083280973822
+      beam-sheet_4: 7770293060051571576
+      beam-sheet_40: 1902723532930096696
+      beam-sheet_41: 3268320417433010148
+      beam-sheet_42: 1667078693086350024
+      beam-sheet_43: 4350802495650784296
+      beam-sheet_44: -6194181013188258953
+      beam-sheet_45: 4912544604047791088
+      beam-sheet_46: -2078036468447680919
+      beam-sheet_47: -7597652635291947974
+      beam-sheet_48: 5800923363028110707
+      beam-sheet_49: 771340136543646573
+      beam-sheet_5: -5227302958866396399
+      beam-sheet_50: 2253208468213175550
+      beam-sheet_51: -4305587027376448359
+      beam-sheet_52: 8888444144570634411
+      beam-sheet_53: -7307859499995529393
+      beam-sheet_54: 6221357775001220787
+      beam-sheet_55: -4816643581609457534
+      beam-sheet_56: 2924188227232769134
+      beam-sheet_57: -774192877944815236
+      beam-sheet_58: 7220496076656737768
+      beam-sheet_59: 8340551562048218766
+      beam-sheet_6: -8390437357511104866
+      beam-sheet_60: 6458307599433031238
+      beam-sheet_61: -3790079703339783890
+      beam-sheet_62: 2576729428352668085
+      beam-sheet_63: -7428858994141205836
+      beam-sheet_64: -3392782375594284030
+      beam-sheet_65: 8936723327811628127
+      beam-sheet_66: -8872885161711562364
+      beam-sheet_67: -550497466097243129
+      beam-sheet_68: 2464413484457591783
+      beam-sheet_69: -4322756023293213633
+      beam-sheet_7: 5265465439346093770
+      beam-sheet_70: -253262756880555117
+      beam-sheet_71: -2076215609630615047
+      beam-sheet_72: -1233279893036294113
+      beam-sheet_73: 2442537033712329289
+      beam-sheet_74: 6461020521017530879
+      beam-sheet_75: -6363344206152570629
+      beam-sheet_76: 5161944648845356228
+      beam-sheet_77: 5740620444091879063
+      beam-sheet_78: 7980566068425860696
+      beam-sheet_79: 6177083528002798600
+      beam-sheet_8: -8967627560154253233
+      beam-sheet_80: -5829735083093546062
+      beam-sheet_81: 4502539602423979883
+      beam-sheet_82: -1442457901682842881
+      beam-sheet_83: 4475623286526518604
+      beam-sheet_84: -4713607228082325154
+      beam-sheet_85: -4124769254471101959
+      beam-sheet_86: -1537805418496485826
+      beam-sheet_87: -4313339785283265413
+      beam-sheet_88: -1371880082542181859
+      beam-sheet_89: -7590575702880287873
+      beam-sheet_9: -2196464990939221937
+      beam-sheet_90: 1434526646389451319
+      beam-sheet_91: -5241823475278955969
+      beam-sheet_92: -2362316064088972456
+      beam-sheet_93: 7945920063104520722
+      beam-sheet_94: -7844992161142407461
+      beam-sheet_95: 339494288263160192
+      beam-sheet_96: 4651792054957394084
+      beam-sheet_97: 811397581316769008
+      beam-sheet_98: -153886124721624084
+      beam-sheet_99: 8567277797522949410
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7474,6 +7474,7 @@ MonoBehaviour:
   - {fileID: 1348437387}
   - {fileID: 1823520205}
   routeColor: {r: 0.5, g: 1, b: 0.7, a: 1}
+  counterRoute: {fileID: 0}
 --- !u!1 &718349122
 GameObject:
   m_ObjectHideFlags: 0
@@ -21528,6 +21529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2052186629}
   - component: {fileID: 2052186628}
+  - component: {fileID: 2052186630}
   m_Layer: 0
   m_Name: Game Controller
   m_TagString: Untagged
@@ -21548,6 +21550,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaveGameController
   levelName: "\u7FE1\u7FE0\u56DE\u5ECA"
+  homeDisplayName: "\u738B\u5BAB"
+  branchDisplayName: "\u5893\u7A74"
+  preparationHint: "\u51C6\u5907\u9632\u5B88"
   startingLives: 20
   startingGold: 380
   branchUnlockWave: 3
@@ -21559,7 +21564,9 @@ MonoBehaviour:
   bossPrefab: {fileID: 1518793436338319628, guid: d50bf65849062464aa62af5788533eb0, type: 3}
   enemiesRoot: {fileID: 1092925921}
   waves:
-  - countA: 6
+  - displayName: 
+    groups: []
+    countA: 6
     countB: 0
     countC: 0
     orcsA: 0
@@ -21569,7 +21576,9 @@ MonoBehaviour:
     bossesB: 0
     bossesC: 0
     spawnInterval: 1.2
-  - countA: 8
+  - displayName: 
+    groups: []
+    countA: 8
     countB: 0
     countC: 0
     orcsA: 1
@@ -21579,7 +21588,9 @@ MonoBehaviour:
     bossesB: 0
     bossesC: 0
     spawnInterval: 1.1
-  - countA: 9
+  - displayName: 
+    groups: []
+    countA: 9
     countB: 0
     countC: 0
     orcsA: 2
@@ -21589,7 +21600,9 @@ MonoBehaviour:
     bossesB: 0
     bossesC: 0
     spawnInterval: 1
-  - countA: 10
+  - displayName: 
+    groups: []
+    countA: 10
     countB: 0
     countC: 0
     orcsA: 3
@@ -21599,7 +21612,9 @@ MonoBehaviour:
     bossesB: 0
     bossesC: 0
     spawnInterval: 0.95
-  - countA: 12
+  - displayName: 
+    groups: []
+    countA: 12
     countB: 0
     countC: 0
     orcsA: 5
@@ -21624,6 +21639,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2052186630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052186627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c38f21fabbe39c468c05099d7c8ba1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CampaignStoryComics
+  game: {fileID: 2052186628}
+  entry: {fileID: 21300000, guid: f684a86841daa2d459349ca65894c09b, type: 3}
+  victory: {fileID: 21300000, guid: f97ffedca92269b45bf8158f49173671, type: 3}
+  chapterTitle: "\u7FE1\u7FE0\u56DE\u5ECA"
+  entryCaption: "\u4ED6\u4EEC\u65E9\u6709\u57CB\u4F0F\uFF0C\u5148\u5B88\u4F4F\u8FD9\u6761\u8DEF\uFF01"
+  victoryCaption: "\u4EA1\u8005\u4E4B\u95E8\u5728\u524D\u65B9\uFF0C\u4F46\u6211\u4EEC\u9700\u8981\u5723\u6797\u7684\u5E87\u62A4\u3002"
+  chapterNumber: 2
 --- !u!1 &2062959375
 GameObject:
   m_ObjectHideFlags: 0

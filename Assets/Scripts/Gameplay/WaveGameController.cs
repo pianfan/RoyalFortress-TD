@@ -59,7 +59,8 @@ public sealed class WaveGameController : MonoBehaviour
     public int Lives { get; private set; }
     public int Gold { get; private set; }
     public bool IsPaused { get; private set; }
-    public bool CanBuild => !IsPaused && !IsGameOver && !AllWavesFinished;
+    public bool StoryOverlayActive { get; set; }
+    public bool CanBuild => !StoryOverlayActive && !IsPaused && !IsGameOver && !AllWavesFinished;
     public int CurrentWave { get; private set; }
     public int CompletedWaves { get; private set; }
     public int LeakedEnemies { get; private set; }
@@ -93,7 +94,7 @@ public sealed class WaveGameController : MonoBehaviour
             return false;
         }
     }
-    public bool CanStartWave => !IsPaused && !IsGameOver && !IsWaveActive && CurrentWave < TotalWaves;
+    public bool CanStartWave => !StoryOverlayActive && !IsPaused && !IsGameOver && !IsWaveActive && CurrentWave < TotalWaves;
     private float resumeTimeScale = 1;
 
     public void SetPaused(bool paused)
@@ -265,9 +266,10 @@ public sealed class WaveGameController : MonoBehaviour
                 float due = Mathf.Max(0,group.startDelay) + spawned[i] * Mathf.Max(.05f,group.spawnInterval);
                 if (spawned[i] >= group.count || elapsed < due) continue;
                 Spawn(group.route,group.prefab);
-                if (group.route == routeA) SpawnedA++;
-                else if (group.route == routeB) SpawnedB++;
-                else if (group.route == routeC) SpawnedC++;
+                WaypointPath countedRoute = group.route.counterRoute ? group.route.counterRoute : group.route;
+                if (countedRoute == routeA) SpawnedA++;
+                else if (countedRoute == routeB) SpawnedB++;
+                else if (countedRoute == routeC) SpawnedC++;
                 spawned[i]++; remaining--; changed = true;
             }
             if (changed) StateChanged?.Invoke();

@@ -1,0 +1,2977 @@
+fileFormatVersion: 2
+guid: 8ae510bd18739074c9ea6c156bda70e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2107456165428872781
+    second: seal-rune-v2_0
+  - first:
+      213: -1939657290905081560
+    second: seal-rune-v2_1
+  - first:
+      213: 856616267779581413
+    second: seal-rune-v2_2
+  - first:
+      213: -5643897746505540000
+    second: seal-rune-v2_3
+  - first:
+      213: 6586741318658412203
+    second: seal-rune-v2_4
+  - first:
+      213: 7634737766168280007
+    second: seal-rune-v2_5
+  - first:
+      213: 2148450434800937423
+    second: seal-rune-v2_6
+  - first:
+      213: -5053472385269588779
+    second: seal-rune-v2_7
+  - first:
+      213: -238107166504187001
+    second: seal-rune-v2_8
+  - first:
+      213: 4890647545481647101
+    second: seal-rune-v2_9
+  - first:
+      213: -5175094580766417086
+    second: seal-rune-v2_10
+  - first:
+      213: 1008331684136400774
+    second: seal-rune-v2_11
+  - first:
+      213: -4742446667674217221
+    second: seal-rune-v2_12
+  - first:
+      213: -4503352394067522534
+    second: seal-rune-v2_13
+  - first:
+      213: 8846969421913690094
+    second: seal-rune-v2_14
+  - first:
+      213: 2561775379884845895
+    second: seal-rune-v2_15
+  - first:
+      213: -2071134674236826981
+    second: seal-rune-v2_16
+  - first:
+      213: -5251335726689025132
+    second: seal-rune-v2_17
+  - first:
+      213: 7342416535081553741
+    second: seal-rune-v2_18
+  - first:
+      213: -4961544587183894616
+    second: seal-rune-v2_19
+  - first:
+      213: 2642082930092446505
+    second: seal-rune-v2_20
+  - first:
+      213: -617562687109208356
+    second: seal-rune-v2_21
+  - first:
+      213: -888346147861133808
+    second: seal-rune-v2_22
+  - first:
+      213: 8683360147680886308
+    second: seal-rune-v2_23
+  - first:
+      213: 36511205506750434
+    second: seal-rune-v2_24
+  - first:
+      213: 1783666220200314443
+    second: seal-rune-v2_25
+  - first:
+      213: -9163921441822732938
+    second: seal-rune-v2_26
+  - first:
+      213: -9044023229917984449
+    second: seal-rune-v2_27
+  - first:
+      213: -737715757202755892
+    second: seal-rune-v2_28
+  - first:
+      213: 8181987752916884416
+    second: seal-rune-v2_29
+  - first:
+      213: 7142924254998818180
+    second: seal-rune-v2_30
+  - first:
+      213: -8337568413512633891
+    second: seal-rune-v2_31
+  - first:
+      213: 3656674533809327828
+    second: seal-rune-v2_32
+  - first:
+      213: -525169652103180125
+    second: seal-rune-v2_33
+  - first:
+      213: 7805343350914024410
+    second: seal-rune-v2_34
+  - first:
+      213: 6237049935004003440
+    second: seal-rune-v2_35
+  - first:
+      213: 1502172344732788782
+    second: seal-rune-v2_36
+  - first:
+      213: 3807763507121644206
+    second: seal-rune-v2_37
+  - first:
+      213: 3148677816485005954
+    second: seal-rune-v2_38
+  - first:
+      213: 2260260253945328728
+    second: seal-rune-v2_39
+  - first:
+      213: -844043552302633688
+    second: seal-rune-v2_40
+  - first:
+      213: 3712170751997402582
+    second: seal-rune-v2_41
+  - first:
+      213: 7068937269351134219
+    second: seal-rune-v2_42
+  - first:
+      213: 234675320146952124
+    second: seal-rune-v2_43
+  - first:
+      213: 3021409777159570675
+    second: seal-rune-v2_44
+  - first:
+      213: 9000503856982711247
+    second: seal-rune-v2_45
+  - first:
+      213: -359523651689291872
+    second: seal-rune-v2_46
+  - first:
+      213: -2266673806564151736
+    second: seal-rune-v2_47
+  - first:
+      213: -5557462929994157763
+    second: seal-rune-v2_48
+  - first:
+      213: -6152872263308427681
+    second: seal-rune-v2_49
+  - first:
+      213: -976927341235586458
+    second: seal-rune-v2_50
+  - first:
+      213: 1804164440651208733
+    second: seal-rune-v2_51
+  - first:
+      213: -6965886928199514828
+    second: seal-rune-v2_52
+  - first:
+      213: -1501317657741654230
+    second: seal-rune-v2_53
+  - first:
+      213: -6407173568901396065
+    second: seal-rune-v2_54
+  - first:
+      213: 7045863422192558738
+    second: seal-rune-v2_55
+  - first:
+      213: -7190425928013495180
+    second: seal-rune-v2_56
+  - first:
+      213: -5915911003733721936
+    second: seal-rune-v2_57
+  - first:
+      213: 5901321730966823633
+    second: seal-rune-v2_58
+  - first:
+      213: -8338091547522884530
+    second: seal-rune-v2_59
+  - first:
+      213: 4254679968997065538
+    second: seal-rune-v2_60
+  - first:
+      213: 8758782991831531004
+    second: seal-rune-v2_61
+  - first:
+      213: 6758445159869577
+    second: seal-rune-v2_62
+  - first:
+      213: -9024533181486923185
+    second: seal-rune-v2_63
+  - first:
+      213: 5539122532273647425
+    second: seal-rune-v2_64
+  - first:
+      213: 8049544999691081849
+    second: seal-rune-v2_65
+  - first:
+      213: -7621165883265604244
+    second: seal-rune-v2_66
+  - first:
+      213: -1000638942094378481
+    second: seal-rune-v2_67
+  - first:
+      213: -6501196458602902384
+    second: seal-rune-v2_68
+  - first:
+      213: 4717997758038375309
+    second: seal-rune-v2_69
+  - first:
+      213: -4063538735110093773
+    second: seal-rune-v2_70
+  - first:
+      213: -1730438714280853044
+    second: seal-rune-v2_71
+  - first:
+      213: 298373753464124836
+    second: seal-rune-v2_72
+  - first:
+      213: -7529812760691121673
+    second: seal-rune-v2_73
+  - first:
+      213: 6004447204861170790
+    second: seal-rune-v2_74
+  - first:
+      213: -8432977811910695229
+    second: seal-rune-v2_75
+  - first:
+      213: 3913012210405242003
+    second: seal-rune-v2_76
+  - first:
+      213: 1112857959211700312
+    second: seal-rune-v2_77
+  - first:
+      213: -706597314572038341
+    second: seal-rune-v2_78
+  - first:
+      213: 6342273507632333355
+    second: seal-rune-v2_79
+  - first:
+      213: -8885410543442919863
+    second: seal-rune-v2_80
+  - first:
+      213: -5557691010601677131
+    second: seal-rune-v2_81
+  - first:
+      213: 5862457294045864722
+    second: seal-rune-v2_82
+  - first:
+      213: -7181147680583954814
+    second: seal-rune-v2_83
+  - first:
+      213: -4430206113453408260
+    second: seal-rune-v2_84
+  - first:
+      213: -7180106849303282228
+    second: seal-rune-v2_85
+  - first:
+      213: 9005710665595434596
+    second: seal-rune-v2_86
+  - first:
+      213: 7412869203592616405
+    second: seal-rune-v2_87
+  - first:
+      213: 1852501230422449755
+    second: seal-rune-v2_88
+  - first:
+      213: -1554650587908299010
+    second: seal-rune-v2_89
+  - first:
+      213: -5254472932924644020
+    second: seal-rune-v2_90
+  - first:
+      213: 5446586074188627104
+    second: seal-rune-v2_91
+  - first:
+      213: -4619873708348947908
+    second: seal-rune-v2_92
+  - first:
+      213: 2955498096796452571
+    second: seal-rune-v2_93
+  - first:
+      213: 703555154529326778
+    second: seal-rune-v2_94
+  - first:
+      213: -3200971139275562782
+    second: seal-rune-v2_95
+  - first:
+      213: -7739831827204573897
+    second: seal-rune-v2_96
+  - first:
+      213: -3954689330703453555
+    second: seal-rune-v2_97
+  - first:
+      213: 8259359549806630227
+    second: seal-rune-v2_98
+  - first:
+      213: -7842681839755532937
+    second: seal-rune-v2_99
+  - first:
+      213: 5690980440731360823
+    second: seal-rune-v2_100
+  - first:
+      213: 4439835588618784024
+    second: seal-rune-v2_101
+  - first:
+      213: -6802264680790128416
+    second: seal-rune-v2_102
+  - first:
+      213: -228534501261793541
+    second: seal-rune-v2_103
+  - first:
+      213: 5890297748377642866
+    second: seal-rune-v2_104
+  - first:
+      213: -3606288041248898246
+    second: seal-rune-v2_105
+  - first:
+      213: -2424536962277735862
+    second: seal-rune-v2_106
+  - first:
+      213: 7500912733171691848
+    second: seal-rune-v2_107
+  - first:
+      213: -2380906454786523839
+    second: seal-rune-v2_108
+  - first:
+      213: -5494472192520067190
+    second: seal-rune-v2_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: seal-rune-v2_0
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 789
+        width: 96
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46481877303f3d10800000000000000
+      internalID: 2107456165428872781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_1
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 965
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8292b9d78f3f415e0800000000000000
+      internalID: -1939657290905081560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_2
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 751
+        width: 190
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5a2ddf4ff43eb00800000000000000
+      internalID: 856616267779581413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 805
+        width: 55
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ed8e6f6e8dca1b0800000000000000
+      internalID: -5643897746505540000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_4
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 912
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baec50ec45ec86b50800000000000000
+      internalID: 6586741318658412203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_5
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 903
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb38b93c8904f960800000000000000
+      internalID: 7634737766168280007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_6
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 912
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9e7d79944d0dd10800000000000000
+      internalID: 2148450434800937423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_7
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 903
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc92c9d3a57ed9b0800000000000000
+      internalID: -5053472385269588779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_8
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 900
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b0b0a2bc212bcf0800000000000000
+      internalID: -238107166504187001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_9
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 455
+        width: 235
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3d116e7021fd340800000000000000
+      internalID: 4890647545481647101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 407
+        width: 323
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f5e5ac5ee5e28b0800000000000000
+      internalID: -5175094580766417086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_11
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 759
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687b8b803505efd00800000000000000
+      internalID: 1008331684136400774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_12
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 880
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf41b0fd1e17f2eb0800000000000000
+      internalID: -4742446667674217221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_13
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 871
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c433d7bd0e081c0800000000000000
+      internalID: -4503352394067522534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 855
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef88e3e0dfb6ca70800000000000000
+      internalID: 8846969421913690094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_15
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 873
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ba06892214d8320800000000000000
+      internalID: 2561775379884845895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_16
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 869
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a9e14bcf9d143e0800000000000000
+      internalID: -2071134674236826981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_17
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 879
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4930266baf18f17b0800000000000000
+      internalID: -5251335726689025132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_18
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 863
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f8d76dfe085e560800000000000000
+      internalID: 7342416535081553741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_19
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 877
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af44af3c7d052bb0800000000000000
+      internalID: -4961544587183894616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_20
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 853
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92398433d609aa420800000000000000
+      internalID: 2642082930092446505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_21
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 877
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6e150120afd67f0800000000000000
+      internalID: -617562687109208356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_22
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 869
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016862b92e5fba3f0800000000000000
+      internalID: -888346147861133808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_23
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 865
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e7d434c0e718870800000000000000
+      internalID: 8683360147680886308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_24
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 884
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e71d8a7fb6b18000800000000000000
+      internalID: 36511205506750434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_25
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 881
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4647ec1afad0c810800000000000000
+      internalID: 1783666220200314443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_26
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 847
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d029e400633d080800000000000000
+      internalID: -9163921441822732938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_27
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 855
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f398b582acc2d7280800000000000000
+      internalID: -9044023229917984449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_28
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 845
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccea8ba6d6b13c5f0800000000000000
+      internalID: -737715757202755892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_29
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 849
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb1531e2824c8170800000000000000
+      internalID: 8181987752916884416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_30
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 849
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48de9bcd3c3c02360800000000000000
+      internalID: 7142924254998818180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_31
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 847
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1ff06c3b10b4c80800000000000000
+      internalID: -8337568413512633891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_32
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 775
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de0ce65d1e1fb230800000000000000
+      internalID: 3656674533809327828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_33
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 827
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0139fdbf836b8f0800000000000000
+      internalID: -525169652103180125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_34
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 817
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad300355c66225c60800000000000000
+      internalID: 7805343350914024410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_35
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 821
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c694eded37e8650800000000000000
+      internalID: 6237049935004003440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_36
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 829
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28a637e9c9c8d410800000000000000
+      internalID: 1502172344732788782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_37
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 807
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea26eae3cb4e7d430800000000000000
+      internalID: 3807763507121644206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_38
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 829
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28acdbbaac952bb20800000000000000
+      internalID: 3148677816485005954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_39
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 815
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8547850c9be0e5f10800000000000000
+      internalID: 2260260253945328728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_40
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 817
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dea027cda5944f0800000000000000
+      internalID: -844043552302633688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_41
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 772
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd566a81a7448330800000000000000
+      internalID: 3712170751997402582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_42
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 751
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04b13f5ef8e91260800000000000000
+      internalID: 7068937269351134219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_43
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 771
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbff8e6d5fbb14300800000000000000
+      internalID: 234675320146952124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_44
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 791
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f40d782f243ee920800000000000000
+      internalID: 3021409777159570675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_45
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 743
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbdcfa329638ec70800000000000000
+      internalID: 9000503856982711247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_46
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 735
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af55b4c427b20bf0800000000000000
+      internalID: -359523651689291872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_47
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 755
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84eaf0aae282b80e0800000000000000
+      internalID: -2266673806564151736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_48
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 731
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31fb4de8ecefd2b0800000000000000
+      internalID: -5557462929994157763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_49
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 751
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eb52d964b9c9aa0800000000000000
+      internalID: -6152872263308427681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_50
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 751
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a394652c14172f0800000000000000
+      internalID: -976927341235586458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_51
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 737
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d181869fffda90910800000000000000
+      internalID: 1804164440651208733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_52
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 735
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4358123eeb2345f90800000000000000
+      internalID: -6965886928199514828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_53
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 41
+        width: 1114
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27894b6b8f3a2be0800000000000000
+      internalID: -1501317657741654230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_54
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 729
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f994c53f5952517a0800000000000000
+      internalID: -6407173568901396065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_55
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 737
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292a4bfa37fe7c160800000000000000
+      internalID: 7045863422192558738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_56
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 744
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4744ff807b9763c90800000000000000
+      internalID: -7190425928013495180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_57
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 723
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc70a3394676eda0800000000000000
+      internalID: -5915911003733721936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_58
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 591
+        width: 93
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2229709d4b5e150800000000000000
+      internalID: 5901321730966823633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_59
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 623
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c16352ae5294c80800000000000000
+      internalID: -8338091547522884530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_60
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 629
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2434a09b3e8ab0b30800000000000000
+      internalID: 4254679968997065538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_61
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 655
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdf9dc99b27d8970800000000000000
+      internalID: 8758782991831531004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_62
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 675
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cecf225c2081000800000000000000
+      internalID: 6758445159869577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_63
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 647
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f420fbda2ea62c280800000000000000
+      internalID: -9024533181486923185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_64
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 622
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f6887789aeedc40800000000000000
+      internalID: 5539122532273647425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_65
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 617
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978db16678ab5bf60800000000000000
+      internalID: 8049544999691081849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_66
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 614
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65a0a1020e2c3690800000000000000
+      internalID: -7621165883265604244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_67
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 389
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0aba0c0f240d12f0800000000000000
+      internalID: -1000638942094378481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_68
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 387
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c42f5044c17c5a0800000000000000
+      internalID: -6501196458602902384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_69
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 401
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b77f2c6f1b97140800000000000000
+      internalID: 4717997758038375309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_70
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 277
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33409bacc096b97c0800000000000000
+      internalID: -4063538735110093773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_71
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 315
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1c4b9582f3cf7e0800000000000000
+      internalID: -1730438714280853044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_72
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 311
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a577811959042400800000000000000
+      internalID: 298373753464124836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_73
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 295
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f16dc5503bb08790800000000000000
+      internalID: -7529812760691121673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_74
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 348
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664565e7be4145350800000000000000
+      internalID: 6004447204861170790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_75
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 345
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6ef422c5b08fa80800000000000000
+      internalID: -8432977811910695229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_76
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 357
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39478f29fdfcd4630800000000000000
+      internalID: 3913012210405242003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_77
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 289
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8509740fa6aa17f00800000000000000
+      internalID: 1112857959211700312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_78
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 208
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f40b17c79a136f0800000000000000
+      internalID: -706597314572038341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_79
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 183
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22cbc20728440850800000000000000
+      internalID: 6342273507632333355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_80
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 223
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ef29a003ea0b480800000000000000
+      internalID: -8885410543442919863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_81
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 193
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be84b5c87d1fd2b0800000000000000
+      internalID: -5557691010601677131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_82
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 191
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213608a29d1ab5150800000000000000
+      internalID: 5862457294045864722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_83
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e4c2b5b30775c90800000000000000
+      internalID: -7181147680583954814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_84
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff78d5130fb482c0800000000000000
+      internalID: -4430206113453408260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_85
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 177
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdbde5ccd22b5c90800000000000000
+      internalID: -7180106849303282228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_86
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 170
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46633c4d226bafc70800000000000000
+      internalID: 9005710665595434596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_87
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 159
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9129ef34dcfd660800000000000000
+      internalID: 7412869203592616405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_88
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 143
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5edd49dd0865b910800000000000000
+      internalID: 1852501230422449755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_89
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 161
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6afd5f685cc6ae0800000000000000
+      internalID: -1554650587908299010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_90
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 138
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c452f17f4bc5417b0800000000000000
+      internalID: -5254472932924644020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_91
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 147
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac3a9e5d29269b40800000000000000
+      internalID: 5446586074188627104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_92
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 165
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32c1b2e659e2efb0800000000000000
+      internalID: -4619873708348947908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_93
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 82
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd645e13cd9040920800000000000000
+      internalID: 2955498096796452571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_94
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 149
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab69d997fa783c900800000000000000
+      internalID: 703555154529326778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_95
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 141
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0e33355bdd393d0800000000000000
+      internalID: -3200971139275562782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_96
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 130
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7357536e5f7969490800000000000000
+      internalID: -7739831827204573897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_97
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 143
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82b46ea10f1e19c0800000000000000
+      internalID: -3954689330703453555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_98
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 151
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355547620c32f9270800000000000000
+      internalID: 8259359549806630227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_99
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 128
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775e6f64b62392390800000000000000
+      internalID: -7842681839755532937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_100
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 132
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e1d790f8c6afe40800000000000000
+      internalID: 5690980440731360823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_101
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 111
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d82c0d1f67d9d30800000000000000
+      internalID: 4439835588618784024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_102
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 135
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8815110508991a0800000000000000
+      internalID: -6802264680790128416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_103
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 134
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6ae59f41514dcf0800000000000000
+      internalID: -228534501261793541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_104
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 112
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2772551189a8eb150800000000000000
+      internalID: 5890297748377642866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_105
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 109
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33ce972224e3fdc0800000000000000
+      internalID: -3606288041248898246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_106
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 127
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4281a28a705a5ed0800000000000000
+      internalID: -2424536962277735862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_107
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 131
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84137e7a368981860800000000000000
+      internalID: 7500912733171691848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_108
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 129
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14db307a13255fed0800000000000000
+      internalID: -2380906454786523839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seal-rune-v2_109
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 112
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a876490e6a6bfb3b0800000000000000
+      internalID: -5494472192520067190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      seal-rune-v2_0: 2107456165428872781
+      seal-rune-v2_1: -1939657290905081560
+      seal-rune-v2_10: -5175094580766417086
+      seal-rune-v2_100: 5690980440731360823
+      seal-rune-v2_101: 4439835588618784024
+      seal-rune-v2_102: -6802264680790128416
+      seal-rune-v2_103: -228534501261793541
+      seal-rune-v2_104: 5890297748377642866
+      seal-rune-v2_105: -3606288041248898246
+      seal-rune-v2_106: -2424536962277735862
+      seal-rune-v2_107: 7500912733171691848
+      seal-rune-v2_108: -2380906454786523839
+      seal-rune-v2_109: -5494472192520067190
+      seal-rune-v2_11: 1008331684136400774
+      seal-rune-v2_12: -4742446667674217221
+      seal-rune-v2_13: -4503352394067522534
+      seal-rune-v2_14: 8846969421913690094
+      seal-rune-v2_15: 2561775379884845895
+      seal-rune-v2_16: -2071134674236826981
+      seal-rune-v2_17: -5251335726689025132
+      seal-rune-v2_18: 7342416535081553741
+      seal-rune-v2_19: -4961544587183894616
+      seal-rune-v2_2: 856616267779581413
+      seal-rune-v2_20: 2642082930092446505
+      seal-rune-v2_21: -617562687109208356
+      seal-rune-v2_22: -888346147861133808
+      seal-rune-v2_23: 8683360147680886308
+      seal-rune-v2_24: 36511205506750434
+      seal-rune-v2_25: 1783666220200314443
+      seal-rune-v2_26: -9163921441822732938
+      seal-rune-v2_27: -9044023229917984449
+      seal-rune-v2_28: -737715757202755892
+      seal-rune-v2_29: 8181987752916884416
+      seal-rune-v2_3: -5643897746505540000
+      seal-rune-v2_30: 7142924254998818180
+      seal-rune-v2_31: -8337568413512633891
+      seal-rune-v2_32: 3656674533809327828
+      seal-rune-v2_33: -525169652103180125
+      seal-rune-v2_34: 7805343350914024410
+      seal-rune-v2_35: 6237049935004003440
+      seal-rune-v2_36: 1502172344732788782
+      seal-rune-v2_37: 3807763507121644206
+      seal-rune-v2_38: 3148677816485005954
+      seal-rune-v2_39: 2260260253945328728
+      seal-rune-v2_4: 6586741318658412203
+      seal-rune-v2_40: -844043552302633688
+      seal-rune-v2_41: 3712170751997402582
+      seal-rune-v2_42: 7068937269351134219
+      seal-rune-v2_43: 234675320146952124
+      seal-rune-v2_44: 3021409777159570675
+      seal-rune-v2_45: 9000503856982711247
+      seal-rune-v2_46: -359523651689291872
+      seal-rune-v2_47: -2266673806564151736
+      seal-rune-v2_48: -5557462929994157763
+      seal-rune-v2_49: -6152872263308427681
+      seal-rune-v2_5: 7634737766168280007
+      seal-rune-v2_50: -976927341235586458
+      seal-rune-v2_51: 1804164440651208733
+      seal-rune-v2_52: -6965886928199514828
+      seal-rune-v2_53: -1501317657741654230
+      seal-rune-v2_54: -6407173568901396065
+      seal-rune-v2_55: 7045863422192558738
+      seal-rune-v2_56: -7190425928013495180
+      seal-rune-v2_57: -5915911003733721936
+      seal-rune-v2_58: 5901321730966823633
+      seal-rune-v2_59: -8338091547522884530
+      seal-rune-v2_6: 2148450434800937423
+      seal-rune-v2_60: 4254679968997065538
+      seal-rune-v2_61: 8758782991831531004
+      seal-rune-v2_62: 6758445159869577
+      seal-rune-v2_63: -9024533181486923185
+      seal-rune-v2_64: 5539122532273647425
+      seal-rune-v2_65: 8049544999691081849
+      seal-rune-v2_66: -7621165883265604244
+      seal-rune-v2_67: -1000638942094378481
+      seal-rune-v2_68: -6501196458602902384
+      seal-rune-v2_69: 4717997758038375309
+      seal-rune-v2_7: -5053472385269588779
+      seal-rune-v2_70: -4063538735110093773
+      seal-rune-v2_71: -1730438714280853044
+      seal-rune-v2_72: 298373753464124836
+      seal-rune-v2_73: -7529812760691121673
+      seal-rune-v2_74: 6004447204861170790
+      seal-rune-v2_75: -8432977811910695229
+      seal-rune-v2_76: 3913012210405242003
+      seal-rune-v2_77: 1112857959211700312
+      seal-rune-v2_78: -706597314572038341
+      seal-rune-v2_79: 6342273507632333355
+      seal-rune-v2_8: -238107166504187001
+      seal-rune-v2_80: -8885410543442919863
+      seal-rune-v2_81: -5557691010601677131
+      seal-rune-v2_82: 5862457294045864722
+      seal-rune-v2_83: -7181147680583954814
+      seal-rune-v2_84: -4430206113453408260
+      seal-rune-v2_85: -7180106849303282228
+      seal-rune-v2_86: 9005710665595434596
+      seal-rune-v2_87: 7412869203592616405
+      seal-rune-v2_88: 1852501230422449755
+      seal-rune-v2_89: -1554650587908299010
+      seal-rune-v2_9: 4890647545481647101
+      seal-rune-v2_90: -5254472932924644020
+      seal-rune-v2_91: 5446586074188627104
+      seal-rune-v2_92: -4619873708348947908
+      seal-rune-v2_93: 2955498096796452571
+      seal-rune-v2_94: 703555154529326778
+      seal-rune-v2_95: -3200971139275562782
+      seal-rune-v2_96: -7739831827204573897
+      seal-rune-v2_97: -3954689330703453555
+      seal-rune-v2_98: 8259359549806630227
+      seal-rune-v2_99: -7842681839755532937
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

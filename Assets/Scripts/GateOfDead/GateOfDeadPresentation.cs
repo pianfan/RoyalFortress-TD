@@ -29,6 +29,7 @@ namespace RoyalFortress.GateOfDead
         public Flame[] violetFlames, orangeFlames;
         public FloatingStone[] stones;
         public Transform heroSocket, bossSocket, bossHit, portalCenter;
+        public Transform initialClashPoint;
         [Range(0, 1)] public float pushProgress;
         public bool showControls = true;
         public bool paused;
@@ -125,7 +126,7 @@ namespace RoyalFortress.GateOfDead
             {
                 float p = pushProgress;
                 if (EndingTime >= 0 && EndingTime < 2.2f) p = Mathf.Lerp(p, 1, Ease(EndingTime / 2.2f));
-                return Vector3.Lerp(MapPoint(797, 485), bossHit.position, p);
+                return Vector3.Lerp(initialClashPoint ? initialClashPoint.position : MapPoint(797, 485), bossHit.position, p);
             }
         }
 
