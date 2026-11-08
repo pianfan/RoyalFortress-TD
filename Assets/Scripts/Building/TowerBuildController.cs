@@ -15,12 +15,16 @@ public sealed class TowerBuildController : MonoBehaviour
     public GameObject mageTowerPrefab, frostTowerPrefab, arrowTowerPrefab, artilleryTowerPrefab;
     public Transform builtTowersRoot;
     public Canvas hudCanvas;
+    [Tooltip("Optional map-specific settings; tower visuals and prices remain shared.")]
+    public TowerDefinition[] mapTowerSettings;
     [Header("建造价格")]
     [Min(1)] public int arrowCost = 90;
     [Min(1)] public int frostCost = 110;
     [Min(1)] public int mageCost = 140;
     [Min(1)] public int artilleryCost = 160;
+    [Range(0, 1)] public float saleRefundRate = .7f;
     public bool IsDragging { get; private set; }
+    public BuildSite SelectedTowerSite { get; private set; }
     public BuildSite HoveredSite => hoveredSite;
     public TowerKind DraggedKind { get; private set; }
     public int BuiltCount
@@ -35,6 +39,9 @@ public sealed class TowerBuildController : MonoBehaviour
     private LineRenderer rangeRing;
     private Vector2 dragPosition;
     private bool purchasing;
+    private bool towerPointerDown, towerPointerMoved;
+    private Vector2 towerPointerStart;
+    private BuildSite pressedTowerSite;
     public int Cost(TowerKind kind)
     {
         switch (kind)
@@ -56,6 +63,13 @@ public sealed class TowerBuildController : MonoBehaviour
         }
     }
     public bool CanAfford(TowerKind kind) => game && game.CanBuild && Prefab(kind) && game.Gold >= Cost(kind);
+    public TowerDefinition Settings(TowerKind kind)
+    {
+        if (mapTowerSettings != null)
+            foreach (var settings in mapTowerSettings) if (settings && settings.kind == kind) return settings;
+        var prefab = Prefab(kind);
+        return prefab ? prefab.GetComponent<TowerBehaviour>().definition : null;
+    }
     private void Awake()
     {
         if (hudCanvas)
@@ -66,7 +80,7 @@ public sealed class TowerBuildController : MonoBehaviour
     }
     private void Update()
     {
-        if (!IsDragging) return;
+        if (!IsDragging) { UpdateTowerSelection(); return; }
         if (!game || !game.CanBuild || !CanAfford(DraggedKind)) { Cancel(); return; }
         bool cancel = false;
 #if ENABLE_INPUT_SYSTEM
@@ -83,6 +97,7 @@ public sealed class TowerBuildController : MonoBehaviour
     public bool BeginDrag(TowerKind kind, Vector2 screenPosition)
     {
         Cancel();
+        if (game && game.TryGetComponent<BattleItemTargeting>(out var targeting)) targeting.Cancel();
         if (!CanAfford(kind)) { FortressAudio.Play(FortressSound.Invalid); PlacementMessage?.Invoke("金币不足，击败敌人可获得金币"); return false; }
         FortressAudio.Play(FortressSound.CardPick);
         IsDragging = true;
@@ -134,7 +149,7 @@ public sealed class TowerBuildController : MonoBehaviour
         try
         {
             spent = game.TrySpendGold(price);
-            if (spent) built = site.TryBuild(Prefab(kind), builtTowersRoot);
+            if (spent) built = site.TryBuild(Prefab(kind), builtTowersRoot, Settings(kind), price);
             if (built) FortressAudio.Play(FortressSound.Build, site.transform.position);
             return built;
         }
@@ -146,6 +161,7 @@ public sealed class TowerBuildController : MonoBehaviour
     }
     public void Cancel()
     {
+        ClearTowerSelection();
         bool wasDragging = IsDragging;
         IsDragging = false;
         if (hoveredSite) hoveredSite.Hover(false);
@@ -154,6 +170,105 @@ public sealed class TowerBuildController : MonoBehaviour
         if (preview) { preview.SetActive(false); Destroy(preview); }
         preview = null;
         if (wasDragging) PlacementMessage?.Invoke("拖动下方塔卡到空坑位，购买并建造");
+    }
+    public int SaleRefund(BuildSite site) => OwnsSite(site) ? Mathf.FloorToInt(site.PaidCost * Mathf.Clamp01(saleRefundRate)) : 0;
+    private bool OwnsSite(BuildSite site) => site && sites != null && System.Array.IndexOf(sites, site) >= 0;
+    public bool CanSell(BuildSite site)
+        => isActiveAndEnabled && game && game.CanBuild && !IsDragging && OwnsSite(site) && site.BuiltTower && !IsItemTargeting;
+    private bool IsItemTargeting => game && game.TryGetComponent<BattleItemTargeting>(out var targeting) && targeting.IsTargeting;
+    public bool SelectTower(BuildSite site)
+    {
+        if (!CanSell(site)) return false;
+        ClearTowerSelection();
+        SelectedTowerSite = site;
+        site.Select(true);
+        return true;
+    }
+    public void ClearTowerSelection()
+    {
+        if (SelectedTowerSite) SelectedTowerSite.Select(false);
+        SelectedTowerSite = null;
+        towerPointerDown = false;
+        pressedTowerSite = null;
+    }
+    public bool TrySell(BuildSite site)
+    {
+        if (purchasing || !CanSell(site)) return false;
+        purchasing = true;
+        try
+        {
+            int refund = SaleRefund(site);
+            if (!site.TryRemoveTower()) return false;
+            ClearTowerSelection();
+            game.AddGold(refund);
+            FortressAudio.Play(FortressSound.Click);
+            PlacementMessage?.Invoke("出售完成 · 返还 " + refund + " 金币 · 空坑位可重新建塔");
+            return true;
+        }
+        finally { purchasing = false; }
+    }
+    private void UpdateTowerSelection()
+    {
+        if (!game || !game.CanBuild || IsItemTargeting) { ClearTowerSelection(); return; }
+        if (SelectedTowerSite && !CanSell(SelectedTowerSite)) ClearTowerSelection();
+        Vector2 pointer = Vector2.zero;
+        bool pressed = false, released = false, cancelled = false;
+#if ENABLE_INPUT_SYSTEM
+        if (Mouse.current == null) return;
+        pointer = Mouse.current.position.ReadValue();
+        pressed = Mouse.current.leftButton.wasPressedThisFrame;
+        released = Mouse.current.leftButton.wasReleasedThisFrame;
+        cancelled = Mouse.current.rightButton.wasPressedThisFrame;
+#elif ENABLE_LEGACY_INPUT_MANAGER
+        pointer = Input.mousePosition;
+        pressed = Input.GetMouseButtonDown(0); released = Input.GetMouseButtonUp(0); cancelled = Input.GetMouseButtonDown(1);
+#endif
+        HandleTowerPointer(pointer, pressed, released, cancelled);
+    }
+    private void HandleTowerPointer(Vector2 pointer, bool pressed, bool released, bool cancelled)
+    {
+        if (cancelled) { ClearTowerSelection(); return; }
+        bool onMap = worldCamera && worldCamera.pixelRect.Contains(pointer) && !IsOverUI(pointer);
+        if (pressed)
+        {
+            towerPointerDown = onMap;
+            towerPointerStart = pointer;
+            towerPointerMoved = false;
+            pressedTowerSite = onMap ? BuiltSiteAt(pointer) : null;
+        }
+        if (!towerPointerDown) return;
+        float threshold = Mathf.Max(8, EventSystem.current ? EventSystem.current.pixelDragThreshold : 8);
+        if ((pointer - towerPointerStart).sqrMagnitude > threshold * threshold)
+        {
+            towerPointerMoved = true;
+            if (SelectedTowerSite) SelectedTowerSite.Select(false);
+            SelectedTowerSite = null;
+        }
+        if (!released) return;
+        towerPointerDown = false;
+        if (towerPointerMoved || !onMap) return;
+        var site = BuiltSiteAt(pointer);
+        if (site && site == pressedTowerSite) SelectTower(site);
+        else ClearTowerSelection();
+    }
+    private BuildSite BuiltSiteAt(Vector2 screenPosition)
+    {
+        if (!worldCamera || sites == null) return null;
+        Vector3 world = worldCamera.ScreenToWorldPoint(new Vector3(screenPosition.x, screenPosition.y, -worldCamera.transform.position.z));
+        foreach (var site in sites)
+        {
+            if (!site || !site.BuiltTower) continue;
+            var tower = site.BuiltTower.GetComponent<TowerBehaviour>();
+            foreach (var sprite in site.BuiltTower.GetComponentsInChildren<SpriteRenderer>())
+            {
+                if (!sprite.enabled || !sprite.sprite || (tower && sprite == tower.auraVisual)) continue;
+                var bounds = sprite.bounds;
+                if (world.x >= bounds.min.x && world.x <= bounds.max.x && world.y >= bounds.min.y && world.y <= bounds.max.y) return site;
+            }
+            var anchor = site.buildAnchor ? site.buildAnchor.position : site.transform.position;
+            if (((Vector2)(world - anchor)).sqrMagnitude < .6f * .6f) return site;
+        }
+        return null;
     }
     private bool IsOverUI(Vector2 position)
     {
@@ -208,7 +323,8 @@ public sealed class TowerBuildController : MonoBehaviour
         rangeRing.sortingOrder = 99;
         if (sites != null) foreach (var site in sites)
             if (site && site.selectionRing) { rangeRing.sharedMaterial = site.selectionRing.sharedMaterial; break; }
-        float radius = tower && tower.definition ? tower.definition.range : 3f;
+        var settings = Settings(kind);
+        float radius = settings ? settings.range : 3f;
         for (int i = 0; i < rangeRing.positionCount; i++)
         {
             float angle = i * Mathf.PI * 2 / rangeRing.positionCount;

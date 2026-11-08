@@ -57,6 +57,8 @@ public sealed class CampaignStoryComics : MonoBehaviour
         if(hudRaycaster){previousRaycaster=hudRaycaster.enabled;hudRaycaster.enabled=false;}
         game.SetPaused(true);
         ComicImage.sprite=won?victory:entry;caption.text=won?victoryCaption:entryCaption;
+        if(won&&game.gameObject.scene.name=="ForestSanctuaryGameplay"&&CampaignProgress.ItemsUnlocked)
+            caption.text="道具已解锁：火球、攻速强化。下次进入关卡即可使用，每关共用三次，施放另需金币。";
         title.text=chapterTitle+"  /  "+(won?"胜利篇":"启程篇");
         pageLabel.text=chapterNumber.ToString("D2")+"  —  "+(won?"02":"01");
         actionLabel.text=won?"继续  ›":"进入战场  ›";

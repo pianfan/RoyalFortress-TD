@@ -175,7 +175,9 @@ public sealed class FortressMainMenu : MonoBehaviour
         detailText = TextAt(detail.transform, "", 17, muted, 26, 65, 960, 58);
         EnterButton = ButtonAt(detail.transform, "Enter Map", "", 1054, 40, 320, 64, gold, ink, () => EnterSelectedMap());
         enterText = EnterButton.GetComponentInChildren<Text>();
-        TextAt(parent, "金币与波次在每次进入关卡时重新开始。", 13, muted, 104, 837, 1300, 28);
+        TextAt(parent, CampaignProgress.ItemsUnlocked
+            ? "道具已解锁：火球 / 攻速强化 · 每关共用 3 次，另需金币。"
+            : "通关圣林加护解锁道具，之后可带入翡翠回廊迎战灾厄巫师。", 15, gold, 104, 837, 1300, 28);
     }
     public void ShowMapSelection()
     {

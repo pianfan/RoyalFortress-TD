@@ -14,12 +14,12 @@ public sealed class FortressWeatherController : MonoBehaviour
     private readonly List<WeatherBossAbility> bosses = new List<WeatherBossAbility>();
     private WaveGameController game;
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
-    private static void ResetInstance() { Instance = null; WorldCombatModifiers.Restore(); }
+    private static void ResetInstance() { Instance = null; WorldCombatModifiers.RestoreWeather(); }
     private void Awake()
     {
         Instance = this;
         game = GetComponent<WaveGameController>();
-        WorldCombatModifiers.Restore();
+        WorldCombatModifiers.RestoreWeather();
         var node = new GameObject("Weather Screen FX", typeof(RectTransform), typeof(Canvas), typeof(CanvasScaler));
         node.transform.SetParent(transform, false);
         var canvas = node.GetComponent<Canvas>();
@@ -53,6 +53,6 @@ public sealed class FortressWeatherController : MonoBehaviour
     private void OnDisable()
     {
         bosses.Clear(); CurrentBoss = null; Weather = FortressWeatherKind.Clear;
-        if (Instance == this) { Instance = null; WorldCombatModifiers.Restore(); }
+        if (Instance == this) { Instance = null; WorldCombatModifiers.RestoreWeather(); }
     }
 }

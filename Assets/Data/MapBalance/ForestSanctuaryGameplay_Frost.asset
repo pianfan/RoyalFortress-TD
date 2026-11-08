@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454e22b52a61d7442bbf6153916b0222, type: 3}
+  m_Name: ForestSanctuaryGameplay_Frost
+  m_EditorClassIdentifier: 
+  displayName: "\u51B0\u971C\u5854"
+  kind: 1
+  range: 2.8
+  damage: 0
+  attackInterval: 0.65
+  projectileSpeed: 10
+  armorPenetration: 0
+  slowFraction: 0.45
+  slowDuration: 0
+  splashRadius: 0
+  magicColor: {r: 0.3, g: 0.9, b: 1, a: 1}

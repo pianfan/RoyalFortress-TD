@@ -6816,6 +6816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 714607362}
   - component: {fileID: 714607363}
+  - component: {fileID: 714607364}
   m_Layer: 0
   m_Name: Emerald Switchback - Serpentine Road
   m_TagString: Untagged
@@ -7475,6 +7476,21 @@ MonoBehaviour:
   - {fileID: 1823520205}
   routeColor: {r: 0.5, g: 1, b: 0.7, a: 1}
   counterRoute: {fileID: 0}
+--- !u!114 &714607364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714607361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aaf56be67a55354586e4defeb09336c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemySpawnArrow
+  game: {fileID: 2052186628}
+  arrowMaterial: {fileID: 2100000, guid: c30a8e1eb56a2d9468792a7705811198, type: 2}
+  color: {r: 1, g: 0.65, b: 0.12, a: 1}
 --- !u!1 &718349122
 GameObject:
   m_ObjectHideFlags: 0
@@ -13125,6 +13141,11 @@ MonoBehaviour:
   artilleryTowerPrefab: {fileID: 3245014155602382561, guid: 6255a2351a264fa7a398a13fb17c2a5b, type: 3}
   builtTowersRoot: {fileID: 2047668911}
   hudCanvas: {fileID: 571371297}
+  mapTowerSettings:
+  - {fileID: 11400000, guid: 5d62be8e89bbe9e4790fbc1cbc55ec9d, type: 2}
+  - {fileID: 11400000, guid: df198da5e122e9a48987aee812da2a50, type: 2}
+  - {fileID: 11400000, guid: 9af8fa0dafab89c439c180c267cf328c, type: 2}
+  - {fileID: 11400000, guid: 7ad16bd55b1f76d41b3c65200455d93c, type: 2}
   arrowCost: 90
   frostCost: 110
   mageCost: 140
@@ -17554,6 +17575,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 714607362}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1608915205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1608915206}
+  m_Layer: 0
+  m_Name: Base Item Cast Origin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1608915206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608915205}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.331491, y: -6.6823206, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2052186629}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1610457069
 GameObject:
   m_ObjectHideFlags: 0
@@ -19155,10 +19207,14 @@ MonoBehaviour:
   mapRenderer: {fileID: 2109820091}
   minimumSize: 3
   maximumSize: 12
-  startSize: 12
+  startSize: 7.5
   zoomSpeed: 1.4
+  buttonZoomFactor: 1.2
   zoomResponse: 24
   keyboardSpeed: 8
+  enableFullMapView: 1
+  overviewPadding: 0.6
+  overviewBackdropMaterial: {fileID: 2100000, guid: 4c70690621210a248996f942f76756cf, type: 2}
 --- !u!81 &1810339770
 AudioListener:
   m_ObjectHideFlags: 0
@@ -19177,7 +19233,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.0627451, g: 0.09019608, b: 0.1254902, a: 1}
+  m_BackGroundColor: {r: 0.035, g: 0.075, b: 0.06, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -19202,7 +19258,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 7.7481837
+  orthographic size: 7.5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -21530,6 +21586,11 @@ GameObject:
   - component: {fileID: 2052186629}
   - component: {fileID: 2052186628}
   - component: {fileID: 2052186630}
+  - component: {fileID: 2052186635}
+  - component: {fileID: 2052186634}
+  - component: {fileID: 2052186633}
+  - component: {fileID: 2052186632}
+  - component: {fileID: 2052186631}
   m_Layer: 0
   m_Name: Game Controller
   m_TagString: Untagged
@@ -21636,7 +21697,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1608915206}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2052186630
@@ -21658,6 +21720,74 @@ MonoBehaviour:
   entryCaption: "\u4ED6\u4EEC\u65E9\u6709\u57CB\u4F0F\uFF0C\u5148\u5B88\u4F4F\u8FD9\u6761\u8DEF\uFF01"
   victoryCaption: "\u4EA1\u8005\u4E4B\u95E8\u5728\u524D\u65B9\uFF0C\u4F46\u6211\u4EEC\u9700\u8981\u5723\u6797\u7684\u5E87\u62A4\u3002"
   chapterNumber: 2
+--- !u!114 &2052186631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052186627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3954d03e0388944459c9f474468ef84a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleItemPanel
+--- !u!114 &2052186632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052186627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f1f80419ab8524e93433eb0f8935b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleItemVfx
+  effectMaterial: {fileID: 2100000, guid: c30a8e1eb56a2d9468792a7705811198, type: 2}
+--- !u!114 &2052186633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052186627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b537dc521b0414285619cb5125c611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleItemTargeting
+  effectMaterial: {fileID: 2100000, guid: c30a8e1eb56a2d9468792a7705811198, type: 2}
+--- !u!114 &2052186634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052186627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8d5a19fa2e0e348b7884a194d4fa2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleItemController
+  game: {fileID: 2052186628}
+  caster: {fileID: 2052186635}
+  fireball: {fileID: 11400000, guid: 015e5ea00aa779540ad01a7149238563, type: 2}
+  haste: {fileID: 11400000, guid: 2b00320e11195a245b012d74edc537bf, type: 2}
+  building: {fileID: 1189124371}
+--- !u!114 &2052186635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052186627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc385a820056014abb1f8e65f149890, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainBaseCaster
+  castOrigin: {fileID: 1608915206}
 --- !u!1 &2062959375
 GameObject:
   m_ObjectHideFlags: 0

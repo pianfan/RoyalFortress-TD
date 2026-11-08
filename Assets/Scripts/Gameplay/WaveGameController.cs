@@ -59,8 +59,10 @@ public sealed class WaveGameController : MonoBehaviour
     public int Lives { get; private set; }
     public int Gold { get; private set; }
     public bool IsPaused { get; private set; }
+    public int GameSpeed { get; private set; } = 1;
     public bool StoryOverlayActive { get; set; }
-    public bool CanBuild => !StoryOverlayActive && !IsPaused && !IsGameOver && !AllWavesFinished;
+    public bool CanAct => !StoryOverlayActive && !IsPaused && !IsGameOver && !AllWavesFinished;
+    public bool CanBuild => CanAct;
     public int CurrentWave { get; private set; }
     public int CompletedWaves { get; private set; }
     public int LeakedEnemies { get; private set; }
@@ -97,6 +99,45 @@ public sealed class WaveGameController : MonoBehaviour
     public bool CanStartWave => !StoryOverlayActive && !IsPaused && !IsGameOver && !IsWaveActive && CurrentWave < TotalWaves;
     private float resumeTimeScale = 1;
 
+    // Between waves, preview the entrances of the next wave, including newly unlocked branches.
+    public bool IsSpawnEntrance(WaypointPath route)
+    {
+        if (!route || IsGameOver || AllWavesFinished) return false;
+        int number = IsWaveActive ? CurrentWave : CurrentWave + 1;
+        if (number < 1 || number > TotalWaves || waves[number - 1] == null) return false;
+        var plan = waves[number - 1];
+        if (plan.groups != null && plan.groups.Length > 0)
+        {
+            foreach (var group in plan.groups)
+                if (group != null && group.route == route && group.count > 0 && group.prefab
+                    && (!(group.requiresBranch || route == routeC) || number >= branchUnlockWave)) return true;
+            return false;
+        }
+        if (route == routeC && number < branchUnlockWave) return false;
+        return (route == routeA && HasSpawns(plan.countA, plan.orcsA, plan.bossesA))
+            || (route == routeB && HasSpawns(plan.countB, plan.orcsB, plan.bossesB))
+            || (route == routeC && HasSpawns(plan.countC, plan.orcsC, plan.bossesC));
+    }
+
+    private bool HasSpawns(int skeletons, int orcs, int bosses)
+        => (skeletons > 0 && enemyPrefab) || (orcs > 0 && orcPrefab) || (bosses > 0 && bossPrefab);
+
+    public bool CycleSpeed()
+    {
+        if (!CanAct) return false;
+        GameSpeed = GameSpeed % 3 + 1;
+        Time.timeScale = resumeTimeScale = GameSpeed;
+        StateChanged?.Invoke();
+        return true;
+    }
+
+    private void ResetSpeed()
+    {
+        GameSpeed = 1;
+        resumeTimeScale = 1;
+        Time.timeScale = IsPaused ? 0 : 1;
+    }
+
     public void SetPaused(bool paused)
     {
         if (IsPaused == paused) return;
@@ -106,10 +147,11 @@ public sealed class WaveGameController : MonoBehaviour
         StateChanged?.Invoke();
     }
 
-    private void OnDestroy() { if (IsPaused) Time.timeScale = resumeTimeScale; }
+    private void OnDestroy() { Time.timeScale = 1; }
 
     private void Awake()
     {
+        ResetSpeed();
         if (!GetComponent<FortressWeatherController>()) gameObject.AddComponent<FortressWeatherController>();
         Lives = startingLives;
         Gold = Mathf.Max(0, startingGold);
@@ -117,7 +159,7 @@ public sealed class WaveGameController : MonoBehaviour
 
     public bool TrySpendGold(int amount)
     {
-        if (!CanBuild || amount < 0 || Gold < amount) return false;
+        if (!CanAct || amount < 0 || Gold < amount) return false;
         Gold -= amount;
         StateChanged?.Invoke();
         return true;
@@ -311,6 +353,7 @@ public sealed class WaveGameController : MonoBehaviour
         if (Lives == 0)
         {
             IsGameOver = true;
+            ResetSpeed();
             IsWaveActive = false;
             IsSpawning = false;
             StopAllCoroutines();
@@ -348,6 +391,7 @@ public sealed class WaveGameController : MonoBehaviour
         {
             IsWaveActive = false;
             CompletedWaves++;
+            if (AllWavesFinished) ResetSpeed();
         }
     }
 

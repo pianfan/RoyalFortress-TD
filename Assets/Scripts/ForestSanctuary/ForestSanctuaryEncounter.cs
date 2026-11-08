@@ -30,7 +30,7 @@ namespace RoyalFortress.ForestSanctuary
         {
             presentation.ReportHomeLives(game.Lives);
             if (game.IsGameOver || game.Lives <= 0) return;
-            // Do not grant a charge when the wave starts or while spawning/enemies remain.
+            // Advance the ritual only after spawning ends and every enemy is resolved.
             if (game.IsWaveActive || game.IsSpawning || game.AliveCount > 0) return;
             while (presentation.CompletedWaves < game.CompletedWaves)
                 if (!presentation.NotifyWaveCleared(presentation.CompletedWaves + 1, game.Lives)) break;

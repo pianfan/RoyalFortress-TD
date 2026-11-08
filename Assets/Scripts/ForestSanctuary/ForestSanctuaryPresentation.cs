@@ -1,12 +1,6 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
-#if ENABLE_INPUT_SYSTEM
-using UnityEngine.InputSystem;
-#endif
 
 namespace RoyalFortress.ForestSanctuary
 {
@@ -16,41 +10,33 @@ namespace RoyalFortress.ForestSanctuary
         public enum RitualStage { Channeling, Completing, Blessed, Interrupted }
         public const int TotalWaves = 8;
         public const float CompletionDuration = 4.8f;
-        public SpriteRenderer sage, hero, crystal, purificationPulse, blessingMark;
+        public SpriteRenderer sage, hero, crystal, blessingMark;
         public SpriteRenderer sageEnergy, heroEnergy;
         public LineRenderer sageConnection, heroConnection;
         public SpriteRenderer[] transferParticles;
         public Sprite[] sageChannelFrames, sageFinishFrames, heroKneelFrames, heroRiseFrames;
-        public Sprite[] crystalIdleFrames, crystalShatterFrames, energyFrames, pulseFrames;
+        public Sprite[] crystalIdleFrames, crystalShatterFrames, energyFrames;
         public Transform sageHand, heroChest, crystalOrigin, crystalInput, crystalOutput;
         public Transform[] foundations;
-        public Collider2D crystalClickTarget;
         public int startingLives = 10;
         public bool showControls = true;
         public bool simulationControlsEnabled = true;
         public bool paused;
-        public bool interactionEnabled = true;
-        public UnityEvent onPurificationPulse = new UnityEvent();
         public UnityEvent onBlessingCompleted = new UnityEvent();
         public event Action StateChanged;
 
         public float Clock { get; private set; }
         public float EndingTime { get; private set; }
-        public float PulseTime { get; private set; } = -1;
         public int CompletedWaves { get; private set; }
-        public int StoredPulse { get; private set; }
         public int HomeLives { get; private set; }
-        public int PulseCount { get; private set; }
         public int ShatterCount { get; private set; }
         public int CompletionCount { get; private set; }
         public RitualStage Stage { get; private set; }
         public float RitualProgress => CompletedWaves / (float)TotalWaves;
-        public bool CanReleasePulse => interactionEnabled && Stage == RitualStage.Channeling && HomeLives > 0 && StoredPulse > 0;
         public bool AutoDemonstration { get; private set; }
         private float autoTime;
         private Font uiFont;
         private GUIStyle labelStyle, buttonStyle, smallStyle;
-        private readonly List<RaycastResult> pointerHits = new List<RaycastResult>();
 
         public static Vector3 MapPoint(float x, float y) => new Vector3((x - 768) / 64f, (512 - y) / 64f, 0);
         private void Awake() { ResetPresentation(); }
@@ -65,37 +51,16 @@ namespace RoyalFortress.ForestSanctuary
                     if (autoTime >= 1.2f)
                     {
                         autoTime -= 1.2f;
-                        if (CanReleasePulse) TryReleasePulse();
                         NotifyWaveCleared(CompletedWaves + 1, HomeLives);
                     }
                 }
             }
-            bool clicked = false; Vector2 pointer = Vector2.zero;
-#if ENABLE_INPUT_SYSTEM
-            if (Mouse.current != null) { clicked = Mouse.current.leftButton.wasPressedThisFrame; pointer = Mouse.current.position.ReadValue(); }
-#elif ENABLE_LEGACY_INPUT_MANAGER
-            clicked = Input.GetMouseButtonDown(0); pointer = Input.mousePosition;
-#endif
-            if (clicked && CanReleasePulse && crystalClickTarget != null && Camera.main != null && !PointerOverUI(pointer))
-            {
-                Vector3 world = Camera.main.ScreenToWorldPoint(new Vector3(pointer.x, pointer.y, -Camera.main.transform.position.z));
-                if (crystalClickTarget.OverlapPoint(world)) TryReleasePulse();
-            }
-        }
-
-        private bool PointerOverUI(Vector2 pointer)
-        {
-            if (EventSystem.current == null) return false;
-            pointerHits.Clear();
-            EventSystem.current.RaycastAll(new PointerEventData(EventSystem.current) { position = pointer },pointerHits);
-            foreach (var hit in pointerHits) if (hit.module is GraphicRaycaster) return true;
-            return false;
         }
 
         public void ResetPresentation()
         {
-            Clock = EndingTime = 0; PulseTime = -1;
-            CompletedWaves = StoredPulse = PulseCount = ShatterCount = CompletionCount = 0;
+            Clock = EndingTime = 0;
+            CompletedWaves = ShatterCount = CompletionCount = 0;
             HomeLives = Mathf.Max(1, startingLives); Stage = RitualStage.Channeling;
             AutoDemonstration = false; autoTime = 0; paused = false;
             RenderLayers(); StateChanged?.Invoke();
@@ -108,7 +73,6 @@ namespace RoyalFortress.ForestSanctuary
             if (remainingHomeLives <= 0) { InterruptRitual(); return false; }
             if (waveNumber != CompletedWaves + 1 || waveNumber > TotalWaves) return false;
             HomeLives = remainingHomeLives; CompletedWaves = waveNumber;
-            if (waveNumber == 2 || waveNumber == 4 || waveNumber == 6) StoredPulse = 1;
             if (waveNumber == TotalWaves) TryBeginCompletion();
             RenderLayers(); StateChanged?.Invoke(); return true;
         }
@@ -118,24 +82,17 @@ namespace RoyalFortress.ForestSanctuary
             HomeLives = Mathf.Max(0, remaining);
             if (HomeLives == 0) InterruptRitual(); else StateChanged?.Invoke();
         }
-        public bool TryReleasePulse()
-        {
-            if (!CanReleasePulse) return false;
-            StoredPulse = 0; PulseTime = 0; PulseCount++;
-            FortressAudio.Play(FortressSound.Pulse, crystal ? crystal.transform.position : transform.position);
-            RenderLayers(); StateChanged?.Invoke(); onPurificationPulse.Invoke(); return true;
-        }
         public bool TryBeginCompletion()
         {
             if (Stage != RitualStage.Channeling || CompletedWaves != TotalWaves || HomeLives <= 0) return false;
-            Stage = RitualStage.Completing; EndingTime = 0; StoredPulse = 0; AutoDemonstration = false;
+            Stage = RitualStage.Completing; EndingTime = 0; AutoDemonstration = false;
             RenderLayers(); return true;
         }
         public bool InterruptRitual()
         {
             if (Stage != RitualStage.Channeling) return false;
-            HomeLives = 0; Stage = RitualStage.Interrupted; StoredPulse = 0;
-            PulseTime = -1; AutoDemonstration = false; RenderLayers(); StateChanged?.Invoke(); return true;
+            HomeLives = 0; Stage = RitualStage.Interrupted;
+            AutoDemonstration = false; RenderLayers(); StateChanged?.Invoke(); return true;
         }
         public void BeginAutomaticDemonstration()
         {
@@ -146,7 +103,6 @@ namespace RoyalFortress.ForestSanctuary
         {
             if (float.IsNaN(seconds) || float.IsInfinity(seconds) || seconds < 0) throw new ArgumentOutOfRangeException(nameof(seconds));
             Clock += seconds;
-            if (PulseTime >= 0) { PulseTime += seconds; if (PulseTime >= 1.1f) PulseTime = -1; }
             bool completed = false;
             if (Stage == RitualStage.Completing)
             {
@@ -203,7 +159,6 @@ namespace RoyalFortress.ForestSanctuary
             float energyAlpha = Stage == RitualStage.Interrupted || Stage == RitualStage.Blessed ? 0 : success ? Mathf.Clamp01(1 - (EndingTime - 1.7f)) : 1;
             Energy(sageEnergy, sageConnection, sageHand.position, crystalInput.position, loop, success && EndingTime >= 1 ? 0 : energyAlpha);
             Energy(heroEnergy, heroConnection, crystalOutput.position, heroChest.position, loop, energyAlpha);
-            Frame(purificationPulse, pulseFrames, PulseTime < 0 ? 0 : Mathf.FloorToInt(PulseTime / .275f), PulseTime < 0 ? 0 : Mathf.Clamp01((1.1f - PulseTime) * 3));
             if (transferParticles != null) for (int i = 0; i < transferParticles.Length; i++)
             {
                 float t = Mathf.Clamp01((EndingTime - .9f - i * .13f) / 1.1f);
@@ -213,7 +168,6 @@ namespace RoyalFortress.ForestSanctuary
             }
             Frame(blessingMark, crystalIdleFrames, loop, success ? Mathf.Clamp01((EndingTime - 2.4f) * 2) : 0);
             if (blessingMark != null) blessingMark.transform.position = heroChest.position;
-            if (crystalClickTarget != null) crystalClickTarget.enabled = !success && Stage != RitualStage.Interrupted;
         }
         private string StatusLabel()
         {
@@ -232,13 +186,10 @@ namespace RoyalFortress.ForestSanctuary
                 smallStyle = new GUIStyle(labelStyle) { fontSize = 13, wordWrap = true };
                 buttonStyle = new GUIStyle(GUI.skin.button) { font = uiFont, fontSize = 15 };
             }
-            GUILayout.BeginArea(new Rect(12, 12, 415, simulationControlsEnabled ? 264 : 137), GUI.skin.box);
+            GUILayout.BeginArea(new Rect(12, 12, 415, simulationControlsEnabled ? 232 : 105), GUI.skin.box);
             GUILayout.Label("圣林加护 · " + StatusLabel(), labelStyle);
             GUILayout.Label($"守住波次 {CompletedWaves}/8  ·  仪式进度 {RitualProgress:P0}  ·  生命 {HomeLives}", labelStyle);
-            GUILayout.Label(StoredPulse > 0 ? "净化脉冲：已就绪（最多一次）" : "净化脉冲：第 2 / 4 / 6 波结束后补充", smallStyle);
             GUILayout.BeginHorizontal();
-            GUI.enabled = CanReleasePulse;
-            if (GUILayout.Button("释放净化脉冲", buttonStyle)) TryReleasePulse();
             GUI.enabled = true;
             if (GUILayout.Button(paused ? "继续" : "暂停", buttonStyle)) paused = !paused;
             if (GUILayout.Button("逐帧", buttonStyle)) { paused = true; Advance(.125f); }
@@ -254,7 +205,7 @@ namespace RoyalFortress.ForestSanctuary
                 GUI.enabled = true;
                 if (GUILayout.Button("重置演示", buttonStyle)) ResetPresentation();
                 GUILayout.EndHorizontal();
-                GUILayout.Label("脉冲不扣仪式进度；滚轮缩放，中键拖动，Home 复位。", smallStyle);
+                GUILayout.Label("守住八波后完成仪式；滚轮缩放，左键拖动，Home 复位。", smallStyle);
             }
             GUI.enabled = true; GUILayout.EndArea();
         }
